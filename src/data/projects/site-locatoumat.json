@@ -1,0 +1,26 @@
+{
+    "id": "site-locatoumat",
+    "title": "Site vitrine ",
+    "client": "Locatoumat",
+    "sector": "Entreprise",
+    "year": "2018",
+    "featured_image": "./images/site-locatoumat/locatoumat.jpg",
+    "cover_image": "./images/site-locatoumat/locatoumat.jpg",
+    "body": [
+        "Refonte du site internet du Groupe LOCATOUMAT, entreprise de location de matériel pour les professionnels et les particuliers.",
+        "Carte dynamique des agences du groupe.",
+        "Présentation de différents services de l'entreprise, et catalogue des produits."
+    ],
+    "features": [
+        {
+            "id": "locatoumat-feature-1",
+            "title": "Présentation",
+            "image": "./images/site-locatoumat/detail-locatoumat.jpg",
+            "text": [
+                "Accueil présentant les différents thèmes présent dans le site.",
+                "Catalogue de produits par gamme .",
+                "Galerie photos"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "particle_hero_section_content",
+        "title": "Trouvez votre solution Web.",
+        "date": "DEVELOPPEUR WEB",
+        "bg_image": "./images/photo3.jpg",
+        "btn_link": "/nos-services",
+        "clients": [  
+            {  "id" : "particule_client_1",
+                "link" : "/project/site-ragnaudsabourin",
+                "image":"./images/logo6.png"
+            },
+            {  "id" : "particule_client_2",
+                "link" : "/project/site-cma",
+                "image":"./images/logo7.png"
+            },
+            {  "id" : "particule_client_3",
+                "link" : "/project/site-panelpub",
+                "image":"./images/logo8.png"
+            }
+
+        ]
+
+    }, 
+    {
+        "id": "particle_story_section_contnet",
+        "title": "O' Pure création propose le site liberté",
+        "subtitle": "Notre métier",
+        "image": "./images/tel.png",
+        "path": "/a-propos",
+        "content": [
+            "Basé au coeur du vignoble de Cognac, Pierre VIGOUROUX développe des solutions internet professionnelle efficaces et performantes par le biais d'un concept de structures de sites novateurs.",
+            "Du site internet vitrine au E commerce, j'ai conçu un système d'administration simple qui permet de prendre la main et d'actualiser son site très facilement tout en gardant les performances d'un référencement naturel optimal.",
+            " Je développe également des Applications Web Mobile."       
+        ]
+    },
+    {
+        "id": "particle_project_section_content",
+        "title": "Site internet",
+        "subtitle": "CREATIONS 2020"
+    },
+    {
+        "id": "particle_clients_section_content",
+        "title": "Ils nous ont fait confiance",
+        "subtitle": "PLUS DE 140 SITES REALISÉS DEPUIS 2010"
+    },
+    {
+        "id": "particle_banner_section_content",
+        "banner_image": "./images/video.jpg"
+    },
+    {
+        "id": "particle_recent_post_section_content",
+        "title": "Nos services",
+        "subtitle": "INFORMATIONS"
+    }
+]

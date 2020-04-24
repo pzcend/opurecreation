@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Accueil",
+        "path": "/index-particle",
+        "isSubmenu": false,
+        "submenu": [
+            {
+                "title": "Home Banner",
+                "path": "/index-banner"
+            },
+            {
+                "title": "Home Particle",
+                "path": "/index-particle"
+            },
+            {
+                "title": "Home Video",
+                "path": "/index-video"
+            },
+            {
+                "title": "Home Slider",
+                "path": "/index-slider"
+            },
+            {
+                "title": "Home Blog",
+                "path": "/index-blog"
+            }
+        ]
+    },
+    {
+        "title": "A propos",
+        "path": "/a-propos"
+    },
+    {
+        "title": "Réalisations",
+        "path": "/nos-realisations-web"
+    },
+    {
+        "title": "Nos services",
+        "path": "/nos-services"
+    },
+    {
+        "title": "contact",
+        "path": "/contact"
+    }
+]

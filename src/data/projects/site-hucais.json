@@ -1,0 +1,27 @@
+{
+    "id": "site-hucais",
+    "title": "Site vitrine",
+    "client": "Hucais Packing Arts Europe",
+    "sector": "Imprimeur coffrets",
+    "year": "2019",
+    "featured_image": "./images/site-hucais/hucais.jpg",
+    "cover_image": "./images/site-hucais/hucais.jpg",
+    "body": [
+        "Refonte du site internet hucais.fr",
+        "Entreprise de produits de communication visuelle située à Saintes en Charente maritime.",
+        "Présentation des différentes gammes de produits.",
+        "Mise en place d'un background vidéo sur la page d'accueil du site."
+    ],
+    "features": [
+        {
+            "id": "hucais-feature-1",
+            "title": "Présentation",
+            "image": "./images/site-hucais/detail-hucais.jpg",
+            "text": [
+                "Accueil présentant les différents thèmes présent dans le site.",
+                "Catalogue de produits par gamme .",
+                "Galerie photos"
+            ]
+        }
+    ]
+}

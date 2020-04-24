@@ -1,0 +1,42 @@
+[
+    {
+        "id": "client_1",
+        "link": "/",
+        "image": "./images/logo1.png"
+    },
+    {
+        "id": "client_2",
+        "link": "/",
+        "image": "./images/logo2.png"
+    },
+    {
+        "id": "client_3",
+        "link": "/",
+        "image": "./images/logo3.png"
+    },
+    {
+        "id": "client_4",
+        "link": "/",
+        "image": "./images/logo4.png"
+    },
+    {
+        "id": "client_5",
+        "link": "/",
+        "image": "./images/logo5.png"
+    },
+    {
+        "id": "client_6",
+        "link": "/",
+        "image": "./images/logo6.png"
+    },
+    {
+        "id": "client_7",
+        "link": "/",
+        "image": "./images/logo7.png"
+    },
+    {
+        "id": "client_8",
+        "link": "/",
+        "image": "./images/logo8.png"
+    }
+]

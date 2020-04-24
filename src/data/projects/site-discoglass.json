@@ -1,0 +1,27 @@
+{
+    "id": "site-discoglass",
+    "title": "Site vitrine ",
+    "client": "DISCOGLASS",
+    "sector": "Cognac ",
+    "year": "2019 - 2020",
+    "featured_image": "./images/creative-agency/disco.jpg",
+    "cover_image": "./images/creative-agency/disco.jpg",
+    "body": [
+        "Nouvelle version du site internet discoglass.fr",
+        "Entreprise de produits verriers spécialisés dans les spritueux et les vins",
+        "Présentation d'une nouvelle gamme de produits via un catalogue de produit.",
+        "Création d'une Newsletter en 3 temps pour le lancement de la gamme de produits"
+    ],
+    "features": [
+        {
+            "id": "agency-feature-1",
+            "title": "Détail",
+            "image": "./images/creative-agency/detail.jpg",
+            "text": [
+                "Accueil présentant les différents thèmes présent dans le site.",
+                "Catalogue de produits par gamme .",
+                "Galerie photos"
+            ]
+        }
+    ]
+}

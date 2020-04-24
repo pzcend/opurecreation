@@ -1,0 +1,30 @@
+{
+    "id": "site-cognacart",
+    "title": "Site Vitrine",
+    "client": "Cognac Art",
+    "sector": "Art",
+    "year": "2018 - 2019",
+    "featured_image": "./images/site-cognacart/cognac-art.jpg",
+    "cover_image": "./images/site-cognacart/cognac-art.jpg",
+    "body": [
+        "Refonte du site internet de la Chambre de Métiers de la Charente.",
+        "Présentation des Campus des métiers de Cognac et de Barbezieux. ",
+        "Présensation de ses différents services pour les artisans et les apprentis.",
+        "Intégration d'une messagerie instantannée ainsi que la création d'un club privé pour les artisans."
+    ],
+    "features": [
+        {
+            "id": "business-feature-1",
+            "title": "Présentation du site.",
+            "image": "./images/site-cognacart/detail-cognac-art.jpg",
+            "text": [
+                "Intégration des videos Web Responsives.",
+                "Espace privée.",
+                "Actualités et agenda personnalisés.",
+                "Tags, Pages dédiées aux métiers",
+                "Messagerie instantanée"
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,100 @@
+[
+    {
+        "id": "module-vitrine",
+        "image": "./images/1.jpg",
+        "name": "Module de site vitrine plus",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "module-vitrineexpert",
+        "image": "./images/1.jpg",
+        "name": "Module de site vitrine expert",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "module-ecommerce",
+        "image": "./images/1.jpg",
+        "name": "Module de site E commerce",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "module-maintenance",
+        "image": "./images/5.jpg",
+        "name" : "Maintenance de site internet",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "espace-prive",
+        "image": "./images/1.jpg",
+        "name": "Module d'espace privé et sécurisé",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "module-paiement",
+        "image": "./images/2.jpg",
+        "name": "Module de paiement sécurisé",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "module-agenda",
+        "image": "./images/1.jpg",
+        "name": "Module d'agenda partagé et de prise de rendez vous",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "module-actualite",
+        "image": "./images/5.jpg",
+        "name": "Module actualité (Blog)",
+        "designation": "Développement",
+        "role": "administrator"
+    },
+    {
+        "id": "insertion-video",
+        "image": "./images/3.jpg",
+        "name": "Insertion de vidéo",
+        "designation": "Creation",
+        "role": "employee"
+    },
+    {
+        "id": "module-recherche",
+        "image": "./images/7.jpg",
+        "name": "Module de recherche interne",
+        "designation": "Développement",
+        "role": "employee"
+    },
+    {
+        "id": "referencement-seo",
+        "image": "./images/4.jpg",
+        "name": "Campagne de référencement",
+        "designation": "SEO",
+        "role": "employee"
+    },
+    {
+        "id": "hebergement-site",
+        "image": "./images/6.jpg",
+        "name": "Hébergement",
+        "designation": "hebergement",
+        "role": "employee"
+    },
+    {
+        "id": "campagne-emailling",
+        "image": "./images/5.jpg",
+        "name": "Campagne de E-Mailling",
+        "designation": "E-Mailling",
+        "role": "employee"
+    },
+    {
+        "id": "you-can-be",
+        "image": "./images/6.jpg",
+        "name": "Audit de votre site",
+        "designation": "maintenance",
+        "role": "employee"
+    }
+]

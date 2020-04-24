@@ -1,0 +1,26 @@
+{
+    "id": "site-brardblanchard",
+    "title": "Site E-commerce",
+    "client": "Brard Blanchard",
+    "sector": "cognac",
+    "year": "2019 - 2020",
+    "featured_image": "./images/smart-business/projet4.jpg",
+    "cover_image": "./images/smart-business/projet4.jpg",
+    "is_featured": true,
+    "body": [
+        "Refonte site vitrine et E-commerce du site internet des Cognac Brard Blanchard.",
+        "Produits Bio depuis 1972, la philosophie de la maison Brard Blanchard, est une agriculture respectueuse de l'environnement. Son principe est la non-utilisation des produits chimiques de synthèse, de désherbants et de pesticides."        
+    ],
+    "features": [
+        {
+            "id": "smart-feature-1",
+            "title": "Détail",
+            "image": "./images/smart-business/projet5.jpg",
+            "text": [
+                "Site présentant le domaine et la gamme de produit des Cognac, pineau et vins.",
+                "Partie E-commerce indépendant et facile à prendre en main par une administration simple et efficace."
+            ]
+        }
+    
+    ]
+}

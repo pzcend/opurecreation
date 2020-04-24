@@ -1,0 +1,26 @@
+[
+    {
+        "id": "company_page_data",
+        "banner_img": "./images/communication.jpg"
+    },
+    {
+        "id": "project_page_data",
+        "banner_img": "./images/bg-image-3.jpg"
+    },
+    {
+        "id": "contact_page_data",
+        "banner_img": "./images/contact.jpg",
+        "title": "Contactez nous",
+        "subtitle": "Ensemble concrétisons votre projet web."
+    },
+    {
+        "id": "blog_page_data",
+        "banner_img": "./images/single-project-banner.jpg",
+        "title": "Nos services",
+        "subtitle": "Informations"
+    },
+    {
+        "id": "single_project_page_data",
+        "banner_img": "./images/communication.jpg"
+    }
+]
