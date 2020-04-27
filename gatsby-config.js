@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Thern`,
-        short_name: `Thern`,
+        name: `O pure Création`,
+        short_name: `O Pure Création`,
         start_url: `/`,
         background_color: `#333333`,
         theme_color: `#001c43`,
@@ -93,8 +93,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'http://thern.rainbowit.net/',
-        sitemap: 'http://thern.rainbowit.net/sitemap.xml',
+        host: 'https://www.opurecreation.com/',
+        sitemap: 'https://www.opurecreation.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

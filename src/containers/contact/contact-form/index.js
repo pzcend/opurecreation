@@ -43,8 +43,8 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                             {subtitle && <Heading {...headingStyle}>{subtitle}</Heading>}
                         </div>
                         <ContactForm>
-                            <Form method="post" action="#">
-                                <Input
+                            <Form>
+                            <Input
                                     type="text"
                                     name="name"
                                     id="name"

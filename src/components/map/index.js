@@ -16,11 +16,11 @@ export const MapContainer = (props) => {
     >
 
       <Marker onClick={onMarkerClick}
-              name={'Current location'} />
+              name={'O Pure Création'} />
     </Map>
   );
 }
  
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyDM180qZny9gpwaYFHwKCq2-D4wgjr5mg')
+  apiKey: ('AIzaSyCZ_CotqEIRr0rUb3c2ugSaRKhXEKT6MEQ')
 })(MapContainer)
