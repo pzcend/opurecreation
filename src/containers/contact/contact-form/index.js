@@ -44,6 +44,7 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                         </div>
                         <ContactForm>
                             <Form>
+                            <form method="post" action="https://newsite.opurecreation.com/contact">
                             <Input
                                     type="text"
                                     name="name"
@@ -65,6 +66,7 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                                     {...textareaStyle}
                                 />
                                 <Button type="submit">Envoyer</Button>
+                                </form>
                             </Form>
                         </ContactForm>
                     </ContactFormWrap>
