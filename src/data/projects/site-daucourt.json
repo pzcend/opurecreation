@@ -7,10 +7,10 @@
     "featured_image": "./images/site-daucourt/daucourt.jpg",
     "cover_image": "./images/site-daucourt/daucourt.jpg",
     "body": [
-        "Refonte du site internet de la Chambre de Métiers de la Charente.",
-        "Présentation des Campus des métiers de Cognac et de Barbezieux. ",
-        "Présensation de ses différents services pour les artisans et les apprentis.",
-        "Intégration d'une messagerie instantannée ainsi que la création d'un club privé pour les artisans."
+        "Site de présentation de la Vodka  La Vie Vodka.",
+        "Pages de présentation spécifique. ",
+        "Intégration Webdesign."
+        
     ],
     "features": [
         {
@@ -18,11 +18,8 @@
             "title": "Présentation du site.",
             "image": "./images/site-daucourt/detail-daucourt.jpg",
             "text": [
-                "Intégration des videos Web Responsives.",
-                "Espace privée.",
-                "Actualités et agenda personnalisés.",
-                "Tags, Pages dédiées aux métiers",
-                "Messagerie instantanée"
+                "Webdesign spécifique.",
+                "Carousel dédié à la présentation des ingrédients et des méthodes de fabrications."  
             ]
         }
         

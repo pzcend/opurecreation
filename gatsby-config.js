@@ -19,12 +19,12 @@ module.exports = {
       email: 'contact@opurecreation.com',
       company_email: 'contact@opurecreation.com',
       company_address: '656 rue de Cognac 16200 NERCILLAC.',
-      phone: '+33 611793656',
+      phone: '0611793656',
       phone2: '+33611793656',
       social: {
-        facebook: 'https://facebook.com',
+        facebook: 'https://facebook.com/Opure-création-150052568385705',
         twitter: 'https://twitter.com',
-        linkedin: 'https://linkedin.com',
+        linkedin: 'https://linkedin.com/in/pierre-vigouroux-a6149474',
         dribbble: 'https://dribbble.com'
       }
     },

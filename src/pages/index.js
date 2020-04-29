@@ -10,7 +10,7 @@ import BlogSection from '../containers/home-particle/blog'
 
 export default () => (
     <Layout>
-        <SEO title="O Pure Création Développeur de site internet en Charente près de Cognac"/>
+        <SEO title="O Pure Création"/>
         <Hero/>
         <Story/>
         <ProjectSection/>

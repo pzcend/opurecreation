@@ -39,19 +39,12 @@ const ContactInfo = ({infoTextStyle, infoHeadingStyle, infoLinkStyle}) => {
                                 <Heading {...infoHeadingStyle}>{company_address}</Heading>
                             </SingleInfo>
                         )}
-                        {company_email && (
-                            <SingleInfo className="wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1000ms">
-                                <Text {...infoTextStyle}>Email</Text>
-                                <Heading {...infoHeadingStyle}>
-                                    <Link {...infoLinkStyle} path={`mailto:${company_email}`}>{company_email}</Link>
-                                </Heading>
-                            </SingleInfo>
-                        )}
+                        
 
                         <SingleInfo className="wow fadeInLeft" data-wow-delay="700ms" data-wow-duration="1000ms">
                             <Text {...infoTextStyle}>Téléphone</Text>
                             {phone && <Heading {...infoHeadingStyle}><Link {...infoLinkStyle} path="/">{phone}</Link></Heading>}
-                            {phone2 && <Heading {...infoHeadingStyle}><Link {...infoLinkStyle} path="/">{phone2}</Link></Heading>}
+                            
                         </SingleInfo>
                     </ContactInfoWrap>
                 </div>

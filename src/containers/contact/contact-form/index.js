@@ -44,7 +44,7 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                         </div>
                         <ContactForm>
                             <Form>
-                            <form method="post" action="https://newsite.opurecreation.com/contact">
+                            <form method="post" action="/mail.php">
                             <Input
                                     type="text"
                                     name="name"

@@ -56,8 +56,8 @@ const ProjectSection = ({section, project}) => {
                     {projectsData.map((data, i) => (
                         <div className="col-2" key={`${data.node.id}-${i}`}>
                             <Blog
-                                title={data.node.title}
-                                author={data.node.client}
+                                title={data.node.client}
+                                author={data.node.title}
                                 sector={data.node.sector}
                                 id={data.node.id}
                                 path={`/project/${data.node.id}`}

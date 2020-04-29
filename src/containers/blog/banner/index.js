@@ -21,7 +21,7 @@ const Banner = () => {
     const {banner_img} = BlogSecQueryData.pagedataJson
     return (
         <div className="banner-area">
-            <Image fluid={banner_img.childImageSharp.fluid} alt="Blog Banner"/>
+            <Image fluid={banner_img.childImageSharp.fluid} alt="Les services de création de site Web"/>
         </div>
     )
 }

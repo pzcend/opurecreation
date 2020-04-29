@@ -1,12 +1,12 @@
 [
-    {
+ {
         "title": "Accueil",
-        "path": "/index-particle",
+        "path": "/",
         "isSubmenu": false,
         "submenu": [
             {
                 "title": "Home Banner",
-                "path": "/index-banner"
+                "path": "/index-particle"
             },
             {
                 "title": "Home Particle",
@@ -14,15 +14,15 @@
             },
             {
                 "title": "Home Video",
-                "path": "/index-video"
+                "path": "/index-particle"
             },
             {
                 "title": "Home Slider",
-                "path": "/index-slider"
+                "path": "/index-particle"
             },
             {
                 "title": "Home Blog",
-                "path": "/index-blog"
+                "path": "/index-particle"
             }
         ]
     },
@@ -39,7 +39,7 @@
         "path": "/nos-services"
     },
     {
-        "title": "contact",
+        "title": "Contactez nous",
         "path": "/contact"
     }
 ]

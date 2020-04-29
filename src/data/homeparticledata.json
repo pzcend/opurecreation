@@ -7,11 +7,11 @@
         "btn_link": "/nos-services",
         "clients": [  
             {  "id" : "particule_client_1",
-                "link" : "/project/site-ragnaudsabourin",
+                "link" : "/project/site-cma",
                 "image":"./images/logo6.png"
             },
             {  "id" : "particule_client_2",
-                "link" : "/project/site-cma",
+                "link" : "/project/site-ragnaudsabourin",
                 "image":"./images/logo7.png"
             },
             {  "id" : "particule_client_3",

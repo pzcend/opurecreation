@@ -3,6 +3,9 @@ import {FormWrap} from './form.stc'
 import {Input} from './input'
 import {Textarea} from './textarea'
 
+
+
+
 const Form = (props) => {
     const {method, action, children, onSubmit, ...restProps} = props;
     return(

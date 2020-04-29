@@ -104,24 +104,14 @@ const OverlaySection = ({
                                     onMouseEnter={onHoverHandler} 
                                     path={facebook}>Facebook</SocialLink>
                             )}
-                            {twitter && (
-                                <SocialLink 
-                                    data-bgcolor="#38A1F3" 
-                                    onMouseEnter={onHoverHandler} 
-                                    path={twitter}>Twiiter</SocialLink>
-                            )}
+                            
                             {linkedin && (
                                 <SocialLink 
                                     data-bgcolor="#0077B5" 
                                     onMouseEnter={onHoverHandler} 
                                     path={linkedin}>Linkedin</SocialLink>
                             )}
-                            {dribbble && (
-                                <SocialLink 
-                                    data-bgcolor="#ea4c89" 
-                                    onMouseEnter={onHoverHandler} 
-                                    path={dribbble}>Dribbble</SocialLink>
-                            )}
+                            
                         </Social>
                     </OverlaySocial>
                     {postal_code && (

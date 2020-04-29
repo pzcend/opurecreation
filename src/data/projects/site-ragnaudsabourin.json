@@ -16,8 +16,10 @@
             "title": "Détail",
             "image": "./images/personal-portfolio/detail.jpg",
             "text": [
+                "Pages de présentation du terroir et de l'entreprise",
                 "Découverte des produits par un carousel de la gamme entière et présentation individuelle de chaque produit.",
-                 "Création d'une photothèque privée accéssible par un login et mot de passe."    
+                 "Création d'une photothèque privée accéssible par un login et mot de passe.",
+                 "Design simple et épuré"   
             ]
         }
         

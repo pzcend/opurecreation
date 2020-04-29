@@ -7,10 +7,10 @@
     "featured_image": "./images/site-cognacart/cognac-art.jpg",
     "cover_image": "./images/site-cognacart/cognac-art.jpg",
     "body": [
-        "Refonte du site internet de la Chambre de Métiers de la Charente.",
-        "Présentation des Campus des métiers de Cognac et de Barbezieux. ",
-        "Présensation de ses différents services pour les artisans et les apprentis.",
-        "Intégration d'une messagerie instantannée ainsi que la création d'un club privé pour les artisans."
+        "Refonte du site de la galerie d'Art comtemporaine de Frédéric Gailledeau située à Cognac.",
+        "Après une boutique physique, Frédéric créé un E-commerce pour présenter et vendre ses produits.",
+        "Ce site est une veritable galerie virtuelle.",
+        "Intégration d'une messagerie instantannée pour communiquer en direct."
     ],
     "features": [
         {
@@ -18,10 +18,9 @@
             "title": "Présentation du site.",
             "image": "./images/site-cognacart/detail-cognac-art.jpg",
             "text": [
-                "Intégration des videos Web Responsives.",
-                "Espace privée.",
-                "Actualités et agenda personnalisés.",
-                "Tags, Pages dédiées aux métiers",
+                "Intégration des artistes et de leur oeuvres.",
+                "Module de vente en ligne.",
+                "Actualités et Blog",
                 "Messagerie instantanée"
             ]
         }

@@ -110,7 +110,6 @@ const Footer = ({
 				<FooterBottomRight>
 					<Social {...socialStyle}>
 						{facebook && <SocialLink path={facebook}>Facebook</SocialLink>}
-						{twitter && <SocialLink path={twitter}>Twitter</SocialLink>}
 						{linkedin && <SocialLink path={linkedin}>Linkedin</SocialLink>}
 						
 					</Social>

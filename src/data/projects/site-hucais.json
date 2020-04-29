@@ -8,9 +8,8 @@
     "cover_image": "./images/site-hucais/hucais.jpg",
     "body": [
         "Refonte du site internet hucais.fr",
-        "Entreprise de produits de communication visuelle située à Saintes en Charente maritime.",
-        "Présentation des différentes gammes de produits.",
-        "Mise en place d'un background vidéo sur la page d'accueil du site."
+        "Imprimeur de coffrets à façon sur les marchés des spiritueux et des cosmétiques.",
+        "Entreprise chinoise avec des agences en France situées à Reims et à Cognac."
     ],
     "features": [
         {
@@ -19,8 +18,9 @@
             "image": "./images/site-hucais/detail-hucais.jpg",
             "text": [
                 "Accueil présentant les différents thèmes présent dans le site.",
-                "Catalogue de produits par gamme .",
-                "Galerie photos"
+                "Catalogue de produits par gamme.",
+                "Galerie photos.",
+                "Localisation du circuit de fabrication."
             ]
         }
     ]

@@ -42,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
                         client
                         featured_image {
                           childImageSharp {
-                            fluid(maxWidth: 1060, maxHeight: 600, quality: 100) {
+                            fluid(maxWidth: 1060, maxHeight: 750, quality: 100) {
                               src
                             }
                           }
@@ -55,7 +55,7 @@ exports.createPages = async ({ graphql, actions }) => {
                         client
                         featured_image {
                           childImageSharp {
-                            fluid(maxWidth: 1060, maxHeight: 600, quality: 100) {
+                            fluid(maxWidth: 1060, maxHeight: 750, quality: 100) {
                               src
                             }
                           }
@@ -84,7 +84,7 @@ exports.createPages = async ({ graphql, actions }) => {
       const currentPage = index + 1;
       if(isFirstPage) return;
       createPage({
-        path: `blog/page/${currentPage}`,
+        path: `/nos-services/${currentPage}`,
         component: blogList,
         context: {
           limit: postsPerPage,

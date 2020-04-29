@@ -18,7 +18,7 @@ const FooterMenu = () => {
                 <Link to="/nos-services" className="no-cursor">Nos services</Link>
             </FooterMenuList>
             <FooterMenuList>
-                <Link to="/" className="no-cursor">Contactez nous</Link>
+                <Link to="/contact" className="no-cursor">Contactez nous</Link>
             </FooterMenuList>
         </FooterMenuWrap>
     )
