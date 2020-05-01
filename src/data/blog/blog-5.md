@@ -3,7 +3,7 @@ title: 'Site Internet E-commerce'
 date: 2020-01-15 02:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-5'
-categorie: 'Site Web'
+categorie: 'Forfait Site Web'
 image: './images/blog-5/communication.jpg'
 is_featured: true
 shortDesc: "Ce module complet basé sur les «framework Prestashop ou CakePhp» vous permettra de créer votre boutique en ligne. Module très performant sur la gestion des commandes et le suivi des clients, l’administration du site permet de gérer très facilement l'évolution de votre activité. "

@@ -18,6 +18,7 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
                     id
                     name
                     designation
+                    path
                     role
                     image {
                       childImageSharp {
@@ -59,6 +60,7 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
                                             <Team 
                                                 imageSrc={admin.node.image.childImageSharp.fluid}
                                                 name={admin.node.name}
+                                                path={admin.node.path}
                                                 designation={admin.node.designation}
                                                 animDelay={`${delay[i]}ms`}
                                             />

@@ -1,42 +1,72 @@
 [
     {
         "id": "client_1",
-        "link": "/",
-        "image": "./images/logo1.png"
+        "link": "https://www.saint-sulpice-de-cognac.fr/",
+        "image": "./images/logo1.png",
+        "name": "Commune Saint Sulpice de Cognac",
+        "categorie": "Institutionnel"
     },
     {
         "id": "client_2",
-        "link": "/",
-        "image": "./images/logo2.png"
+        "link": "https://www.cma-charente.fr",
+        "image": "./images/logo2.png",
+        "name": "Chambre de métiers de la Charente",
+        "categorie": "Institutionnel"
     },
     {
         "id": "client_3",
-        "link": "/",
-        "image": "./images/logo3.png"
-    },
-    {
-        "id": "client_4",
-        "link": "/",
-        "image": "./images/logo4.png"
-    },
-    {
-        "id": "client_5",
-        "link": "/",
-        "image": "./images/logo5.png"
+        "link": "https://www.cognacragnaudsabourin.fr",
+        "image": "./images/logo3.png",
+        "name" : "Cognac Ragnaud Sabourin",
+        "categorie": "Vins & Spiritueux "
     },
     {
         "id": "client_6",
-        "link": "/",
-        "image": "./images/logo6.png"
+        "link": "https://www.discoglass.fr",
+        "image": "./images/logo6.png",
+        "name": "Discoglass",
+        "categorie": "Vins et Spiritueux"
     },
     {
+        "id": "client_4",
+        "link": "http://ecole-de-danse-fabienne-zeman.fr",
+        "image": "./images/logo4.png",
+        "name" : "Ecole de danse F. Zeman",
+        "categorie": "Association"
+    },
+    {
+        "id": "client_5",
+        "link": "https://www.savariau-paysagiste.fr",
+        "image": "./images/logo5.png",
+        "name" :"Savariau Paysagiste",
+        "categorie": "Entreprise"
+    },   
+    {
         "id": "client_7",
-        "link": "/",
-        "image": "./images/logo7.png"
+        "link": "https://www.areva-constructions.com",
+        "image": "./images/logo7.png",
+        "name": "Areva constructions",
+        "categorie": "Entreprise"
     },
     {
         "id": "client_8",
+        "link": "https://www.imprimerie-traditionnelle.fr",
+        "image": "./images/logo8.png",
+        "name": "Imprimerie traditionnelle",
+        "categorie": "Entreprise"
+    },
+    {
+        "id": "client_9",
+        "link": "https://www.relaisdubois.com",
+        "image": "./images/logo8.png",
+        "name": "Le Relais du Bois St Georges",
+        "categorie": "Hotel / Restaurant"
+    },
+    {
+        "id": "client_10",
         "link": "/",
-        "image": "./images/logo8.png"
+        "image": "./images/logo8.png",
+        "name": "Et tous les autres.....",
+        "categorie": "Merci à vous pour votre confiance"
     }
 ]

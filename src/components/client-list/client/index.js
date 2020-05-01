@@ -2,12 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {ClientWrap} from './client.stc'
 
-export const Client = ({link, client_image, ...props}) => {
+export const Client = ({link, name, categorie, client_image, ...props}) => {
     return (
         <ClientWrap {...props}>
-            <a href={link}>
-                <img src={client_image.src} alt="Client"/>
-            </a>
+
+        <p><strong><a target="_blank" href={link}>{name}</a></strong></p>
+        <p>{categorie}</p>
+        
+            
         </ClientWrap>
     )
 }

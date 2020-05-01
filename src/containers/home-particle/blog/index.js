@@ -23,6 +23,7 @@ const BlogSection = ({section}) => {
                         id
                         date(formatString: "MMM Do, YYYY")
                         author
+                        categorie
                         shortDesc
                         image {
                             childImageSharp {
@@ -56,7 +57,8 @@ const BlogSection = ({section}) => {
                             <Blog
                                 title={blog.node.frontmatter.title}
                                 date={blog.node.frontmatter.date}
-                                author={blog.node.frontmatter.author}
+                                categorie={blog.node.frontmatter.categorie}
+                                author={blog.node.frontmatter.categorie}
                                 id={blog.node.frontmatter.id}
                                 path={blog.node.fields.slug}
                                 excerpt={blog.node.frontmatter.shortDesc}

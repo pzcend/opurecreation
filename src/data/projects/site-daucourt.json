@@ -4,22 +4,24 @@
     "client": "La vie Vodka",
     "sector": "Cognac Spiritueux",
     "year": "2018 - 2019",
+    "url":"http://www.lavievodka.com",
     "featured_image": "./images/site-daucourt/daucourt.jpg",
     "cover_image": "./images/site-daucourt/daucourt.jpg",
     "body": [
-        "Site de présentation de la Vodka  La Vie Vodka.",
-        "Pages de présentation spécifique. ",
-        "Intégration Webdesign."
-        
+        "Site vitrine de la Vodka de la maison Daucourt à Angoulème :",
+        "La Vie Vodka.",
+        "Pages de présentation spécifiques. ",
+        "Intégration Webdesign original."   
     ],
     "features": [
         {
             "id": "business-feature-1",
-            "title": "Présentation du site.",
+            "title": "Développement.",
             "image": "./images/site-daucourt/detail-daucourt.jpg",
             "text": [
-                "Webdesign spécifique.",
-                "Carousel dédié à la présentation des ingrédients et des méthodes de fabrications."  
+                "Intégration Webdesign spécifique original.",
+                "Carousel dédié à la présentation des ingrédients et des méthodes de fabrications du produit.",
+                "Site internet statique original" 
             ]
         }
         

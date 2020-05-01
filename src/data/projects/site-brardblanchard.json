@@ -2,14 +2,17 @@
     "id": "site-brardblanchard",
     "title": "Site E-commerce",
     "client": "Brard Blanchard",
-    "sector": "cognac",
+    "sector": "Maison de  Cognac",
     "year": "2019 - 2020",
+     "url":"https://www.brard-blanchard.fr",
     "featured_image": "./images/smart-business/projet4.jpg",
     "cover_image": "./images/smart-business/projet4.jpg",
     "is_featured": true,
     "body": [
-        "Refonte site vitrine et E-commerce du site internet des Cognac Brard Blanchard.",
-        "Produits Bio depuis 1972, la philosophie de la maison Brard Blanchard, est une agriculture respectueuse de l'environnement. Son principe est la non-utilisation des produits chimiques de synthèse, de désherbants et de pesticides."        
+        "Refonte site vitrine et E-commerce du site internet des Cognac Brard Blanchard situé à Boutiers Saint Trojan (16100).",
+        "Produits Bio depuis 1972, la philosophie de la maison Brard Blanchard, est une agriculture respectueuse de l'environnement.",
+        "Son principe est la non-utilisation des produits chimiques de synthèse, de désherbants et de pesticides.",
+        "La maison Brard Blanchard produit des Cognac, Pineau des charentes ainsi qu'une gamme de vins de pays charentes en 3 couleurs."        
     ],
     "features": [
         {
@@ -17,8 +20,10 @@
             "title": "Détail",
             "image": "./images/smart-business/projet5.jpg",
             "text": [
-                "Site présentant le domaine et la gamme de produit des Cognac, pineau et vins.",
-                "Partie E-commerce indépendant et facile à prendre en main par une administration simple et efficace."
+                "Site présentant le domaine et la gamme de produit des Cognac, pineau des Charentes et vins de pays de Charentais.",
+                "Partie E-commerce indépendante et facile à prendre en main par une administration simple et efficace.",
+                "Arborescence du site modulable et évolutive.",
+                "Structure Web-Responsive adaptable aux différents taille d'écrans (PC, Tablette, Smartphone"
             ]
         }
     

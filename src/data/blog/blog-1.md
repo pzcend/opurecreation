@@ -5,7 +5,7 @@ author: 'Pierre VIGOUROUX'
 id: 'blog-1'
 categorie: 'Application Web'
 image: './images/blog-1/interventionsenligne.jpg'
-shortDesc: "Interventionenligne.fr est un logiciel de partage d'activité et de planning."
+shortDesc: "Interventionenligne.fr est un logiciel de partage d'activité et de planning. Il permet de travailler à distance dans la maintenance technique et la gestion de votre fichier client. "
 is_featured: false
 ---
 

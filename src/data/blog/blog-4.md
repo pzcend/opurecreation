@@ -3,7 +3,7 @@ title: 'Site internet Vitrine Expert'
 date: 2020-01-15 02:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-4'
-categorie: 'Site Web'
+categorie: 'Forfait Site Web'
 image: './images/blog-4/communication.jpg'
 shortDesc: "Ce module de site internet complet basé sur le site vitrine plus permet d'incorporer plusieurs modules supplémentaires afin d'optimiser votre activité sur internet"
 ---

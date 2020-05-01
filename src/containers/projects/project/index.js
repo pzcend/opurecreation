@@ -20,6 +20,7 @@ const ProjectSection = ({section, project}) => {
             id
             title
             sector
+            year
             client
             featured_image {
               childImageSharp {
@@ -59,6 +60,7 @@ const ProjectSection = ({section, project}) => {
                                 title={data.node.client}
                                 author={data.node.title}
                                 sector={data.node.sector}
+                                year={data.node.year}
                                 id={data.node.id}
                                 path={`/project/${data.node.id}`}
                                 image={data.node.featured_image.childImageSharp}

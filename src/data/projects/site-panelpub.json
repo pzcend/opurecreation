@@ -4,12 +4,13 @@
     "client": "Panel Pub",
     "sector": "Agence de communication",
     "year": "2019",
+    "url":"https://www.panelpub.com",
     "is_featured": true,
     "featured_image": "./images/site-panelpub/panelpub.jpg",
     "cover_image": "./images/site-panelpub/panelpub.jpg",
     "body": [
         "Refonte du site internet Panelpub.com",
-        "Entreprise de produits de communication visuelle située à Saintes en Charente maritime.",
+        "Entreprise de produits de communication visuelle située à Saintes en Charente-maritime.",
         "Présentation des différentes gammes de produits.",
         "Mise en place d'un background vidéo sur la page d'accueil du site."
     ],

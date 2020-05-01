@@ -14,7 +14,7 @@ import {
     PostMeta
 } from './blog.stc'
 
-const Blog = ({title, date, id, author, path, image, excerpt}) => {
+const Blog = ({title, date, categorie, id, author, path, image, excerpt}) => {
     
     return (
         <BlogWrapper>
@@ -24,7 +24,7 @@ const Blog = ({title, date, id, author, path, image, excerpt}) => {
                         <Image fluid={image} alt={title}/>
                     </Link>
                     <Category>
-                        <Link to={path}>Développement</Link>
+                        <Link to={path}>{categorie}</Link>
                     </Category>
                 </Thumb>
             )}
@@ -35,8 +35,8 @@ const Blog = ({title, date, id, author, path, image, excerpt}) => {
                 </ContentTop>
                 <ContentBottom>
                     <PostMeta>
-                        <li><i className="ti-user"></i> <Link to={path}>{author}</Link></li>
-                       
+                        <li><i className="ti-comment"></i> <Link to={path}>{categorie}</Link></li>
+                        <li><i className="ti-desktop"></i> <i className="ti-tablet"></i> <i className="ti-mobile"></i></li>
                     </PostMeta>
                 </ContentBottom>
             </Content>

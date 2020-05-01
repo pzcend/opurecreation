@@ -5,7 +5,7 @@ import Heading from '../../../components/shared/heading'
 import Text from '../../../components/shared/text'
 import {AboutSectionWrap, SectionTitle, AboutContent, ProjectTypeList} from './about.stc'
  
-const About = ({HeadingStyle, TextStyle, ProjectTypeHeading, ProjectTypeText}) => {
+const About = ({HeadingStyle, paragraph, TextStyle, ProjectTypeHeading, ProjectTypeText}) => {
     const aboutQueryData = useStaticQuery(graphql `
         query AboutDataQuery {
             aboutdataJson(id: {eq: "about-intro-content"}) {
@@ -37,7 +37,7 @@ const About = ({HeadingStyle, TextStyle, ProjectTypeHeading, ProjectTypeText}) =
                 {content && (
                     <div className="col-2 offset-1">
                         <AboutContent>
-                            <Text>{content}</Text>
+                             {content.map((textData, i) => <Text key={`story-text-${i}`} {...paragraph}>{textData}</Text>)}
                         </AboutContent>
                     </div>
                 )}

@@ -12,7 +12,8 @@
         "Refonte du site internet de la Chambre de Métiers de la Charente.",
         "Présentation des Campus des métiers de Cognac et de Barbezieux. ",
         "Présensation de ses différents services pour les artisans et les apprentis.",
-        "Intégration d'une messagerie instantannée ainsi que la création d'un club privé pour les artisans."
+        "Intégration d'une messagerie instantannée. ",
+        "Création d'un club privé pour les artisans."
     ],
     "features": [
         {
@@ -24,7 +25,9 @@
                 "Espace privée.",
                 "Actualités et agenda personnalisés.",
                 "Tags, Pages dédiées aux métiers",
-                "Messagerie instantanée"
+                "Messagerie instantanée",
+                "Site internet évolutif par une administration personnalisée.",
+                "Structure du site Web-Responsive adaptable aux différents écrans (PC, Tablette, Smartphone)."
             ]
         }
         

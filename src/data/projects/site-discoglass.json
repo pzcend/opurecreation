@@ -2,25 +2,27 @@
     "id": "site-discoglass",
     "title": "Site vitrine ",
     "client": "DISCOGLASS",
-    "sector": "Cognac ",
+    "sector": "Verrier Vins & Spiritueux",
     "year": "2019 - 2020",
+     "url":"https://www.discoglass.fr",
     "featured_image": "./images/creative-agency/disco.jpg",
     "cover_image": "./images/creative-agency/disco.jpg",
     "body": [
         "Nouvelle version du site internet discoglass.fr",
-        "Entreprise de produits verriers spécialisés dans les spritueux et les vins",
+        "Entreprise de produits verriers spécialisés dans les spiritueux et les vins situé à Merpins à coté de Cognac.",
         "Présentation d'une nouvelle gamme de produits via un catalogue de produit.",
-        "Création d'une Newsletter en 3 temps pour le lancement de la gamme de produits"
+        "Création d'une Newsletter en 3 temps pour le lancement de la gamme de produits."
     ],
     "features": [
         {
             "id": "agency-feature-1",
-            "title": "Détail",
+            "title": "Développement",
             "image": "./images/creative-agency/detail.jpg",
             "text": [
-                "Accueil présentant les différents thèmes présent dans le site.",
-                "Catalogue de produits par gamme .",
-                "Galerie photos"
+                "Accueil avec un slider pleine page présentant les différents thèmes du site.",
+                "Catalogue technique de produits par gamme spécifique.",
+                "Galerie photos originale",
+                "Design épuré et moderne"
             ]
         }
     ]

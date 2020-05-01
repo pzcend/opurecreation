@@ -20,6 +20,7 @@ const BlogArea = () => {
                       date(formatString: "MMM Do, YYYY")
                       id
                       author
+                      categorie
                       shortDesc
                       image {
                         childImageSharp {
@@ -55,6 +56,7 @@ const BlogArea = () => {
                                     date={blog.node.frontmatter.date}
                                     author={blog.node.frontmatter.author}
                                     id={blog.node.frontmatter.id}
+                                    categorie={blog.node.frontmatter.categorie}
                                     path={blog.node.fields.slug}
                                     excerpt={blog.node.frontmatter.shortDesc}
                                     image={blog.node.frontmatter.image.childImageSharp.fluid}

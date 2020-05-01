@@ -2,8 +2,9 @@
     "id": "site-jeanmaire",
     "title": "Site vitrine ",
     "client": "Atelier Xavier jeanmaire",
-    "sector": "Entreprise",
+    "sector": "Entreprise Ebénisterie Menuiserie",
     "year": "2019",
+     "url":"https://www.atelier-xavierjeanmaire.fr",
     "featured_image": "./images/site-jeanmaire/jeanmaire.jpg",
     "cover_image": "./images/site-jeanmaire/jeanmaire.jpg",
     "body": [
@@ -15,12 +16,13 @@
     "features": [
         {
             "id": "stsulpice-feature-1",
-            "title": "Présentation",
+            "title": "Développement",
             "image": "./images/site-jeanmaire/detail-jeanmaire.jpg",
             "text": [
-                "Accueil présentant les différents thèmes présent dans le site.",
+                "Accueil présentant les différents thèmes du site.",
                 "Catalogue de produits par gamme .",
-                "Galerie photos"
+                "Galerie photos",
+                "Pages dynamiques misent à jour par une administration indépendante."
             ]
         }
     ]

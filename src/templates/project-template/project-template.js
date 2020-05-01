@@ -33,18 +33,31 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                     <div className="row">
                         <div className="col-1 offset-1">
                             <div className="rn-project-meta-inner">
-                                {projectData.title && <Heading {...title}>{projectData.title}</Heading>}
+                                {projectData.title && <Heading {...title}>{projectData.client}</Heading>}
                                 <ProjectHeaderMeta>
-                                    {projectData.client && (
-                                        <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
-                                            <Heading {...metaHeading}>Client</Heading>
-                                            <Text {...metaText}>{projectData.client}</Text>
-                                        </ProjectType>
-                                    )}
+                                   
                                     {projectData.sector && (
                                         <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                             <Heading {...metaHeading}>Secteur</Heading>
                                             <Text {...metaText}>{projectData.sector}</Text>
+                                        </ProjectType>
+                                    )}
+                                    
+                                    {projectData.url && (
+                                        <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                            <Heading {...metaHeading}>Lien site</Heading>
+                                            <Text {...metaText}><a target="_blank" href={projectData.url}>{projectData.url}</a></Text>
+                                        </ProjectType>
+                                    )}
+                                </ProjectHeaderMeta>
+                            </div>
+                        </div>
+                        <div className="col-2 offset-1">
+                            <div className="rn-project-content">
+                             {projectData.client && (
+                                        <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                            <Heading {...metaHeading}>Type de site </Heading>
+                                            <Text {...metaText}>{projectData.title}</Text>
                                         </ProjectType>
                                     )}
                                     {projectData.year && (
@@ -53,13 +66,16 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                                             <Text {...metaText}>{projectData.year}</Text>
                                         </ProjectType>
                                     )}
-                                </ProjectHeaderMeta>
-                            </div>
-                        </div>
-                        <div className="col-2 offset-1">
-                            <div className="rn-project-content">
-                                {body && body.map((text, i) => <p key={`text-${i}`}>{text}</p>)}
+
+                                    <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                            <Heading {...metaHeading}>Présentation</Heading>
+                                            {body && body.map((text, i) => <div key={`text-${i}`}>{text}</div>)}
                                 
+                                        </ProjectType>
+                                   
+
+
+                               
                             </div>
                             
                         </div>
@@ -152,6 +168,7 @@ export const query = graphql `
             title
             client
             sector
+            url
             year
             body
             cover_image {

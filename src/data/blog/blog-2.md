@@ -3,7 +3,7 @@ title: 'Collaboration Agence 410'
 date: 2020-02-02 06:00:00
 author: 'Pierre VIGOUROUX'
 id: 'blog-2'
-categorie: 'Actualités'
+categorie: 'Informations'
 image: './images/blog-2/agence410.jpg'
 shortDesc: 'O Pure Création travaille en collaboration sur Saintes et Royan pour le développement de site internet avec Panel Pub et Agence 410'
 is_featured: false

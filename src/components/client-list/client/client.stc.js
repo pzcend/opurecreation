@@ -4,9 +4,9 @@ import {device} from '../../../theme'
 export const ClientWrap = styled.li `
     flex-basis: 50%;
     text-align: center;
-    height: 214px;
-    line-height: 214px;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top:5%;
+    padding-bottom:5%;
+    height: 100px;
     @media ${device.small}{
         height: 150px;
         line-height: 150px;

@@ -61,6 +61,7 @@ export const query = graphql `
                 title
                 date(formatString: "MMM Do, YYYY")
                 author
+                categorie
                 image {
                     childImageSharp {
                       fluid(maxWidth: 1920, maxHeight: 750, quality: 100) {

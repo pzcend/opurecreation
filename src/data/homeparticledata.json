@@ -2,7 +2,7 @@
     {
         "id": "particle_hero_section_content",
         "title": "Trouvez votre solution Web.",
-        "date": "DEVELOPPEUR WEB",
+        "date": "DEVELOPPEUR WEB DEPUIS 2009",
         "bg_image": "./images/photo3.jpg",
         "btn_link": "/nos-services",
         "clients": [  
@@ -24,7 +24,7 @@
     }, 
     {
         "id": "particle_story_section_contnet",
-        "title": "O' Pure création propose le site liberté",
+        "title": "O' Pure création développe votre nouveaux projet Web",
         "subtitle": "Notre métier",
         "image": "./images/tel.png",
         "path": "/a-propos",
@@ -42,7 +42,9 @@
     {
         "id": "particle_clients_section_content",
         "title": "Ils nous ont fait confiance",
-        "subtitle": "PLUS DE 140 SITES REALISÉS DEPUIS 2010"
+        "subtitle": "PLUS DE 140 SITES REALISÉS DEPUIS 2010",
+        "image": "./images/up.png"
+
     },
     {
         "id": "particle_banner_section_content",

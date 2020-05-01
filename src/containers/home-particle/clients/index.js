@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from "gatsby"
+import Image from '../../../components/image'
 import SectionTitle from '../../../components/shared/section-title'
 import ClientList, {Client} from '../../../components/client-list'
 import {ClientSectionWrap, ClientWrap, ClientLeft, ClientRight} from './clients.stc'
@@ -11,12 +12,21 @@ const ClientSection = ({section}) => {
             homeparticledataJson(id: {eq: "particle_clients_section_content"}) {
                 title
                 subtitle
+                image {
+                    childImageSharp {
+                        fluid(quality: 100){
+                            src
+                        }
+                    }
+                }
             }
-            allClientsJson(limit: 8) {
+            allClientsJson(limit: 10) {
                 edges {
                   node {
                     id
                     link
+                    name
+                    categorie
                     image {
                       childImageSharp {
                         fluid(quality: 100) {
@@ -31,6 +41,7 @@ const ClientSection = ({section}) => {
     `)
     const clientSecData = clientQueryData.homeparticledataJson;
     const clients = clientQueryData.allClientsJson.edges;
+    const imageData = clientSecData.image.childImageSharp.fluid;
 
     return (
         <ClientSectionWrap {...section}>
@@ -38,10 +49,13 @@ const ClientSection = ({section}) => {
                 <div className="col-4 offset-1">
                     <ClientWrap>
                         <ClientLeft>
+                       
                             <SectionTitle
                                 title={clientSecData.title}
                                 subtitle={clientSecData.subtitle}
+
                             />
+        
                         </ClientLeft>
                         <ClientRight>
                             <ClientList>
@@ -49,8 +63,9 @@ const ClientSection = ({section}) => {
                                     <Client
                                         key={`client-${i}`}
                                         link={client.node.link}
-                                        client_image={client.node.image.childImageSharp.fluid}
-                                    />
+                                        name={client.node.name}
+                                        categorie={client.node.categorie}
+                                        client_image={client.node.image.childImageSharp.fluid}                />
                                 ))}
                             </ClientList>
                         </ClientRight>

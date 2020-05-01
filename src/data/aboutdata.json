@@ -8,8 +8,7 @@
             "Développement de site internet et d'application Web Hybride.",
             "Conseil et Formation site internet",
             "Maintenance site internet et référencement moteurs de recherche.",
-            "Je mets tout en oeuvre pour promouvoir les bonnes méthodes de construction de site internet au service des entreprises pour une meilleure performance et rentabilité de vos projets."
-                    
+            "Je mets tout en oeuvre pour promouvoir les bonnes méthodes de construction de site internet au service des entreprises pour une meilleure performance et rentabilité de vos projets."         
         ],
         "featured_work": [
             {
@@ -25,7 +24,7 @@
                 "title": "DEVELOPPEUR FRONT-END",
                 "achivments": [
                     "Application Web",
-                    "METEOR / REACT / GATSBY"
+                    "METEOR.JS / REACT.JS / GATSBY.JS"
                 ]
             },
             {
@@ -48,7 +47,7 @@
     },
     {
         "id": "about-team-section-content",
-        "title": "Nos modules",
+        "title": "Nos forfaits et options",
         "subtitle": "UNE SOLUTION WEB"
     },
     {

@@ -4,10 +4,12 @@
     "client": "Hucais Packing Arts Europe",
     "sector": "Imprimeur coffrets",
     "year": "2019",
+     "url":"https://www.hucais.fr",
     "featured_image": "./images/site-hucais/hucais.jpg",
     "cover_image": "./images/site-hucais/hucais.jpg",
     "body": [
         "Refonte du site internet hucais.fr",
+        "Agence de Cognac",
         "Imprimeur de coffrets à façon sur les marchés des spiritueux et des cosmétiques.",
         "Entreprise chinoise avec des agences en France situées à Reims et à Cognac."
     ],

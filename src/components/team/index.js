@@ -1,17 +1,18 @@
 import React from 'react'
+import {Link} from 'gatsby'
 import PropTypes from 'prop-types'
 import Heading from '../shared/heading'
 import Text from '../shared/text'
 import Image from '../image'
 import {TeamWrapper, TeamThumb, TeamOverlay, TeamContent} from './team.stc'
 
-const Team = ({imageSrc, name, designation, teamStyle}) => {
+const Team = ({imageSrc, name, path, designation, teamStyle}) => {
     const {wrapperStyle, contentStyle, headingStyle, textStyle, animDelay} = teamStyle;
     return(
         <TeamWrapper {...wrapperStyle}>
             {imageSrc && (
                 <TeamThumb>
-                    <Image fluid={imageSrc} alt={name}/>
+                   <Link to={path}> <Image fluid={imageSrc} alt={name}/></Link>
                 </TeamThumb>
             )}
             <TeamOverlay></TeamOverlay>
@@ -21,8 +22,9 @@ const Team = ({imageSrc, name, designation, teamStyle}) => {
                 data-wow-delay={animDelay} 
                 data-wow-duration="1000ms"
             >
-                {name && <Heading {...headingStyle}>{name}</Heading>}
+                <Link to={path}>{name && <Heading {...headingStyle}>{name}</Heading>}</Link>
                 {designation && <Text {...textStyle}>{designation}</Text>}
+               
             </TeamContent>
         </TeamWrapper>
     )
