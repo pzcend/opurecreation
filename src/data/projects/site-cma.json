@@ -1,9 +1,9 @@
 {
     "id": "site-cma",
     "title": "Site Vitrine",
-    "client": "Chambre De Métiers De La Charente",
-    "sector": "Cognac",
-    "year": "2018 - 2019",
+    "client": "Chambre de métier de la Charente",
+    "sector": "Institutionnel",
+    "year": "2019",
     "url": "https://www.cma-charente.fr",
     "featured_image": "./images/business-agency/cma.jpg",
     "cover_image": "./images/business-agency/cma.jpg",

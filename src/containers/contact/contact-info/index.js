@@ -24,7 +24,7 @@ const ContactInfo = ({infoTextStyle, infoHeadingStyle, infoLinkStyle}) => {
             }
         }      
     `);
-    const {company_address, company_email, phone, phone2} = siteQueryData.site.siteMetadata.contact
+    const {company_address, phone,} = siteQueryData.site.siteMetadata.contact
     return (
         <SectionWrap>
             <div className="row justify-content-between align-items-center">

@@ -78,7 +78,7 @@ const OverlaySection = ({
         }      
     `);
 
-    const {postal_code, social: {facebook, twitter, linkedin, dribbble}} = siteQueryData.site.siteMetadata.contact;
+    const {postal_code, social: {facebook, linkedin}} = siteQueryData.site.siteMetadata.contact;
     const menuData = siteQueryData.allMenuJson.edges;
     const mapImg = siteQueryData.file.childImageSharp.fluid;
     return (

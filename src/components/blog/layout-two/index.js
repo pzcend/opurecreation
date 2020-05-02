@@ -14,7 +14,7 @@ import {
     PostMeta
 } from './blog.stc'
  
-const Blog = ({title, date, year, id, author, path, image, excerpt}) => {
+const Blog = ({title, date, sector, year, id, author, path, image, excerpt}) => {
    
     return (
         <BlogWrapper>
@@ -32,7 +32,7 @@ const Blog = ({title, date, year, id, author, path, image, excerpt}) => {
                 <ContentTop>
                     <PostDate>{date}</PostDate>
                     <PostTitle><Link to={path}>{title}</Link></PostTitle>
-                    <Excerpt>{excerpt}</Excerpt>
+                    <Excerpt>{sector}</Excerpt>
                 </ContentTop>
                 <ContentBottom>
                     <PostMeta>

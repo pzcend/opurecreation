@@ -6,10 +6,9 @@ export const ClientWrap = styled.li `
     text-align: center;
     padding-top:5%;
     padding-bottom:5%;
-    height: 100px;
+    height: 150px;
     @media ${device.small}{
         height: 150px;
-        line-height: 150px;
     }
     a{
         display: block;
