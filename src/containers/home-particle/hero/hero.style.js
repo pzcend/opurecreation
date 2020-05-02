@@ -119,7 +119,6 @@ export const ClientWrap = styled.div `
         }
     }
     img{
-        filter: invert(1);
         max-width: 110px;
         @media ${device.medium}{
             max-width: 90px;

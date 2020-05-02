@@ -8,7 +8,7 @@ export const MapContainer = (props) => {
   return (
     <Map 
       google={props.google} 
-      zoom={14}
+      zoom={11}
       initialCenter={{
           lat: 45.708164,
           lng: -0.252557
@@ -22,5 +22,5 @@ export const MapContainer = (props) => {
 }
  
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyCZ_CotqEIRr0rUb3c2ugSaRKhXEKT6MEQ')
+  apiKey: ('AIzaSyCljLw0rLe6OK-TuWIfSxYIT6BeVK_M6y8')
 })(MapContainer)

@@ -94,7 +94,7 @@ const Hero = (props) => {
                     {clients.map(client => (
                       <ClientItem key={client.id}>
                         <Anchor path={client.link}>
-                          <img src={client.image.childImageSharp.fluid.src} alt="client"/>
+                          <img src={client.image.childImageSharp.fluid.src} alt="Création site internet charente"/>
                         </Anchor>
                       </ClientItem>
                     ))}
