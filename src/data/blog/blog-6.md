@@ -3,7 +3,7 @@ title: 'Maintenance de votre site internet'
 date: 2020-01-15 02:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-6'
-categorie: 'Service site Web'
+categorie: 'Service Web'
 image: './images/blog-6/communication.jpg'
 shortDesc: "Le contrat de maintenance de sites Internet est une offre de services de O'Pure création pour maintenir à jour, et animer votre site Internet."
 ---

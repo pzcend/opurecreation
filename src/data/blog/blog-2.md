@@ -13,9 +13,11 @@ is_featured: false
     <div class="row">
         <div class="col-1 offset-1">
             <h2>Collaboration Agence 410.</h2>
+            <p>O Pure Création travaille en collaboration sur Saintes et Royan pour le développement de site internet avec Panel Pub et Agence 410</p>
         </div>
         <div class="col-2 offset-1">
             <div class="rn-blog-content">
+                <h4>Information</h4>
                 <p>O'Pure création travaille depuis 1 an avec les équipes de l'Agence 410 et de Panel Pub à Royan et Saintes.</p>
                 <p>Ensemble nous partageons nos compétences pour présenter de nouveaux modules de sites internet.</p>
                 <ul>

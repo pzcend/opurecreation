@@ -18,6 +18,7 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<div style="margin-top:150px">
 				<div class="jumbotron">
   <h1 class="display-4">Confirmation de la reception de votre message</h1>
   <p class="lead">Merci pour votre message, nous vous recontacterons dans les meilleurs délais.</p>
@@ -26,6 +27,7 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
   <a class="btn btn-primary btn-lg" href="/" role="button">Retour à l'accueil</a>
 </div>
 			</div>
+		</div>
 		</div>
 	</div>
 </body>

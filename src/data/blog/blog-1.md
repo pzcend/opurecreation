@@ -13,9 +13,12 @@ is_featured: false
     <div class="row">
         <div class="col-1 offset-1">
             <h2>Vos interventions en ligne.</h2>
+            <p>Interventionenligne.fr est un logiciel de partage d'activité et de planning.</p>
+            <p>Il permet de travailler à distance dans la maintenance technique et la gestion de votre fichier client.</p>
         </div>
         <div class="col-2 offset-1">
             <div class="rn-blog-content">
+                <h4>Contenus</h4>
                 <p>Interventionsenligne.fr est un logiciel destiné à toutes les entreprises qui souhaitent dématérialiser leur activités d'interventions. </p>
                 <p>Le logiciel intègre : </p>
                 <ul>

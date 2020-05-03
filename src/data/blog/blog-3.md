@@ -13,11 +13,14 @@ shortDesc: 'Ce module vous permettra de promouvoir votre activité sur internet 
     <div class="row">
         <div class="col-1 offset-1">
             <h2>Composition.</h2>
+            <p>Ce module vous permettra de promouvoir votre activité sur internet de manière simple et efficace.</p>
+            <p>Les différentes catégories vous permettent de présenter une entreprise dans sa globalité ou de rentrer dans les détails d’un produit, d’un service, ou d’une activité plus précise.</p>
         </div>
         <div class="col-2 offset-1">
             <div class="rn-blog-content">
+                <h4>Eléménts principaux</h4>
                 <ul>
-                <li>5 pages principales ainsi q'un nombre illimité de sous pages, permettant de présenter une entreprise dans sa globalité ou de détailler un produit, un service, une activité.</li>
+                <li>5 pages principales ainsi q'un nombre illimité de sous pages, permettant de présenter une entreprise dans sa globalité ou de détailler un produit, un service, une activité.</li><li>Webdesign réalisé sur Photoshop suivant la charte graphique de l'entreprise.</li>
                 <li>Site internet Web-Responsive permettant de s'adapter sur tous vos écrans (PC, Tablette, Smartphone).</li>
                 <li>Un système d'administration (CMS) permet de modifier les contenus du site très facilement.</li>
                 <li>Un référencement naturel efficace</li>

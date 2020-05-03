@@ -1,6 +1,6 @@
 {
     "id": "site-ragnaudsabourin",
-    "title": "Site Internet Vitrine",
+    "title": "Site Vitrine",
     "client": "Cognac Ragnaud Sabourin",
     "sector": "Maison de Cognac",
     "year": "2020",
@@ -9,7 +9,7 @@
     "cover_image": "./images/personal-portfolio/ragnaudsabourin.jpg",
     "body": [
         "Création du site internet des Cognac Ragnaud Sabourin.",
-        "Les Cognac Ragnaud Sabourin proviennent exclusivement du vignoble appelé Domaine de la Voute et sont situé en Grande Champagne, premier cru de la région de Cognac."
+        "Les Cognac Ragnaud Sabourin proviennent exclusivement du vignoble appelé Domaine de la Voute et sont situés en Grande Champagne, premier cru de la région de Cognac."
     ],
     "features": [
         {

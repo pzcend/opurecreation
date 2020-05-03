@@ -6,7 +6,7 @@ export const Client = ({link, name, categorie, client_image, ...props}) => {
     return (
         <ClientWrap {...props}>
 
-        <p><strong><a target="_blank" href={link}>{name}</a></strong></p>
+        <p><a className="color" target="_blank" href={link}>{name}</a></p>
         <p>{categorie}</p>
         
             

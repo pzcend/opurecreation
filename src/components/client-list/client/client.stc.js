@@ -12,12 +12,15 @@ export const ClientWrap = styled.li `
     }
     a{
         display: block;
+        color:#ff005a;
         &:hover{
-            background-color: #fff;
             transform: scale(1.1);
             img{
                 opacity: 1;
             }
+        }
+    .color{
+            color:#ff005a !important;
         }
         img{
             opacity: 0.7;

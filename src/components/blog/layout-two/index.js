@@ -36,7 +36,7 @@ const Blog = ({title, date, sector, year, id, author, path, image, excerpt}) => 
                 </ContentTop>
                 <ContentBottom>
                     <PostMeta>
-                        <li><i className="ti-desktop"></i> <i className="ti-tablet"></i> <i className="ti-mobile"></i> <Link to={path}>{author}</Link></li>
+                        <li><i className="ti-desktop"></i> <Link to={path}>{author}</Link></li>
                         <li><i className="ti-arrow-circle-down"></i> <Link to={path}>{year}</Link></li>
                     </PostMeta>
                 </ContentBottom>
