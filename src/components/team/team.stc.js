@@ -20,13 +20,13 @@ export const TeamWrapper = styled.div `
     margin-bottom: ${props => props.mb};
     position: relative;
     overflow: hidden;
-    max-width: 320px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     &:hover{
         ${TeamThumb}{
             img{
-                transform: scale(1.1);
+                transform: scale(0.9);
             }
         }
     }

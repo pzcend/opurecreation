@@ -6,7 +6,7 @@ import Heading from '../shared/heading'
 import Text from '../shared/text'
 import qouteImg from '../../assets/img/icons/quote.png';
 
-const Testimonial = ({author_name, author_role, company, country, author_image, review, ...restProps}) => {
+const Testimonial = ({author_name, author_role, company, author_image, review, ...restProps}) => {
     const {HeadingStyle, TextStyle, reviewStyle, reviewSpanStyle, ...restStyles} = restProps
     return (
         <TestimonialWrap {...restStyles}>
@@ -25,11 +25,10 @@ const Testimonial = ({author_name, author_role, company, country, author_image, 
                     )}
                     <ClientDetails>
                         {author_name && <Heading {...HeadingStyle}>{author_name}</Heading>}
-                        {(author_role || company || country) && (
+                        {(author_role || company) && (
                             <Text {...TextStyle}>
                                 {author_role && <Text as="span">{author_role}</Text>}
                                 {company && <Text as="span"> , {company}</Text>}
-                                {country && <Text as="span"> , {country}</Text>}
                             </Text>
                         )}
                     </ClientDetails>

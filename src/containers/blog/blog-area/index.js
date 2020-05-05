@@ -2,13 +2,12 @@ import React, {Fragment} from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import BlogHeading from '../blog-heading'
 import Blog from '../../../components/blog/layout-one'
-import Pagination from '../../../components/pagination'
 import {SectionWrap, BlogInner} from './blog-area.stc'
  
 const BlogArea = () => {
     const blogQueryData = useStaticQuery(graphql `
         query BlogDataQuery {
-            allMarkdownRemark(limit: 10) {
+            allMarkdownRemark(limit: 8) {
                 totalCount
                 edges {
                   node {
@@ -67,10 +66,7 @@ const BlogArea = () => {
                 </div>
             </BlogInner>
         </SectionWrap>
-        <Pagination
-            currentPage={1}
-            numberOfPages={numberOfPages}
-        />
+       
       </Fragment>
     )
 }

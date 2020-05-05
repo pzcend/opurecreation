@@ -2,7 +2,7 @@
     {
         "id": "particle_hero_section_content",
         "title": "Trouvez votre solution Web.",
-        "date": "DEVELOPPEUR WEB DEPUIS 2009",
+        "date": "<!-- DEVELOPPEUR WEB / APPLICATION MOBILE -->",
         "bg_image": "./images/photo3.jpg",
         "btn_link": "/nos-services",
         "clients": [  
@@ -24,13 +24,13 @@
     }, 
     {
         "id": "particle_story_section_contnet",
-        "title": "O' Pure création développe votre nouveaux projet Web",
+        "title": "O' Pure création développe votre nouveau projet Web",
         "subtitle": "Notre métier",
         "image": "./images/tel.png",
         "path": "/a-propos",
         "content": [
             "Basé au coeur du vignoble de Cognac, Pierre VIGOUROUX développe des solutions internet professionnelle efficaces et performantes par le biais d'un concept de structures de sites novateurs.",
-            "Du site internet vitrine au E commerce, j'ai conçu un système d'administration simple qui permet de prendre la main et d'actualiser son site très facilement tout en gardant les performances d'un référencement naturel optimal.",
+            "Du site internet vitrine au E-commerce, j'ai conçu un système d'administration simple qui permet de prendre la main et d'actualiser son site très facilement tout en gardant les performances d'un référencement naturel optimal.",
             "O'Pure Création continue à évoluer en développant des Applications Web Mobile spécifique à certaines professions ou simplement pour améliorer votre quoditien professionnel."       
         ]
     },

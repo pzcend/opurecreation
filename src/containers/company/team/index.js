@@ -22,7 +22,7 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
                     role
                     image {
                       childImageSharp {
-                        fluid(maxWidth: 615, maxHeight: 720, quality: 100) {
+                        fluid(maxWidth: 200, maxHeight: 200, quality: 100) {
                           ...GatsbyImageSharpFluid_withWebp
                           presentationWidth
                           presentationHeight
@@ -42,7 +42,7 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
     return (
         <TeamSectionWrap>
             <TeamContainer>
-                <div className="col-1 offset-1">
+                <div className="col-2 offset-1">
                     <SectionTitle
                         subtitle={teamSecData.subtitle}
                         title={teamSecData.title}
@@ -101,7 +101,7 @@ TeamSection.propTypes = {
 
 TeamSection.defaultProps = {
     wrapperOne: {
-        pt: '75px'
+        pt: '20px'
     },
     wrapperTwo: {
         pt: '20px'

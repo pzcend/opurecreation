@@ -1,7 +1,7 @@
 [
     {
         "id": "module-vitrine",
-        "image": "./images/1.jpg",
+        "image": "./images/forfait_vitrine_plus.png",
         "name": "Forfait vitrine plus",
         "designation": "Module Principal",
         "path": "/site-internet-vitrine-plus",
@@ -9,7 +9,7 @@
     },
     {
         "id": "module-vitrineexpert",
-        "image": "./images/1.jpg",
+        "image": "./images/forfait_vitrine_expert.png",
         "name": "Forfait vitrine expert",
         "designation": "Module principal",
         "path": "/site-internet-vitrine-expert",
@@ -17,7 +17,7 @@
     },
     {
         "id": "module-ecommerce",
-        "image": "./images/1.jpg",
+        "image": "./images/forfait_e_commerce.png",
         "name": "Forfait E-commerce",
         "designation": "Module principal",
         "path": "/site-internet-e-commerce",
@@ -25,7 +25,7 @@
     },
     {
         "id": "module-maintenance",
-        "image": "./images/1.jpg",
+        "image": "./images/forfait_maintenance.png",
         "name" : "Forfait maintenance",
         "designation": "Module principal",
         "path": "/maintenance-de-votre-site-internet",
@@ -33,14 +33,14 @@
     },
     {
         "id": "espace-prive",
-        "image": "./images/1.jpg",
+        "image": "./images/module-espaceprive-securise.png",
         "name": "Module d'espace privé et sécurisé",
         "designation": "Développement",
         "role": "administrator"
     },
     {
         "id": "module-paiement",
-        "image": "./images/2.jpg",
+        "image": "./images/module-paiement-securise.png",
         "name": "Module de paiement sécurisé",
         "path": "#",
         "designation": "Développement",
@@ -48,7 +48,7 @@
     },
     {
         "id": "module-agenda",
-        "image": "./images/1.jpg",
+        "image": "./images/module-agenda_partage-rdv.png",
         "name": "Module d'agenda partagé et de prise de rendez vous",
         "designation": "Développement",
         "path": "#",
@@ -56,7 +56,7 @@
     },
     {
         "id": "module-actualite",
-        "image": "./images/5.jpg",
+        "image": "./images/module-actualite.png",
         "name": "Module actualité (Blog)",
         "designation": "Développement",
         "path": "#",
@@ -64,7 +64,7 @@
     },
     {
         "id": "insertion-video",
-        "image": "./images/3.jpg",
+        "image": "./images/module-insertion_video.png",
         "name": "Insertion de vidéo",
         "designation": "Creation",
         "path": "#",
@@ -72,7 +72,7 @@
     },
     {
         "id": "module-recherche",
-        "image": "./images/7.jpg",
+        "image": "./images/module-recherche_interne.png",
         "name": "Module de recherche interne",
         "designation": "Développement",
         "path": "#",
@@ -80,7 +80,7 @@
     },
     {
         "id": "referencement-seo",
-        "image": "./images/4.jpg",
+        "image": "./images/campagne-ref.png",
         "name": "Campagne de référencement",
         "designation": "SEO",
         "path": "#",
@@ -88,7 +88,7 @@
     },
     {
         "id": "hebergement-site",
-        "image": "./images/6.jpg",
+        "image": "./images/hebergement.png",
         "name": "Hébergement",
         "path": "#",
         "designation": "hebergement",
@@ -96,18 +96,10 @@
     },
     {
         "id": "campagne-emailling",
-        "image": "./images/5.jpg",
+        "image": "./images/campagne-emailling.png",
         "name": "Campagne de E-Mailling",
         "designation": "E-Mailling",
         "path": "#",
         "role": "employee"
-    },
-    {
-        "id": "you-can-be",
-        "image": "./images/6.jpg",
-        "name": "Audit de votre site",
-        "designation": "maintenance",
-        "path": "#",
-        "role": "employee"
-    }
+    } 
 ]

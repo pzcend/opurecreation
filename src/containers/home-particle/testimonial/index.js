@@ -16,7 +16,6 @@ const TestimonialSection = ({section, options}) => {
                         author_role
                         review
                         company
-                        country
                         author_image {
                             childImageSharp {
                                 fixed(width: 88, height: 88, quality: 100) {
@@ -41,7 +40,6 @@ const TestimonialSection = ({section, options}) => {
                                     author_name={data.node.author_name}
                                     author_role={data.node.author_role}
                                     company={data.node.company}
-                                    country={data.node.country}
                                     author_image={data.node.author_image.childImageSharp.fixed}
                                     review={data.node.review}
                                 />
