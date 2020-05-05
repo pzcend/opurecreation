@@ -8,6 +8,20 @@ image: './images/blog-1/interventionsenligne.jpg'
 shortDesc: "Interventionenligne.fr est un logiciel de partage d'activité et de planning. Il permet de travailler à distance dans la maintenance technique et la gestion de votre fichier client. "
 is_featured: false
 ---
+<style>
+    .bouton{
+        background: #ff005a;
+        color: #fff;
+        line-height: 1;
+        font-weight: 400;
+        font-size:1.2rem;
+        padding: 27px 25px;
+        padding-right: 45px;
+        min-height: 66px;
+        border-radius: 5px;
+        text-align:center;
+    }
+    </style>
 
 <div class="rn-blog-meta-area section-pb-xl">
     <div class="row">
@@ -15,6 +29,7 @@ is_featured: false
             <h2>Vos interventions en ligne.</h2>
             <p>Interventionenligne.fr est un logiciel de partage d'activité et de planning.</p>
             <p>Il permet de travailler à distance dans la maintenance technique et la gestion de votre fichier client.</p>
+            
         </div>
         <div class="col-2 offset-1">
             <div class="rn-blog-content">
@@ -30,6 +45,7 @@ is_featured: false
                     <li>Envoi par email</li>
                     <li>Mise à jour des bases de données</li>
                 </ul>
+                <p><a href="#" title="Pour plus de détail">Contactez nous</a></p>
             </div>
         </div>
     </div>
@@ -38,3 +54,4 @@ is_featured: false
 <div class="full-width-box">
     <img src="./images/blog-1/image-interventions.png" alt="interventions en ligne"/>
 </div>
+

@@ -37,6 +37,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-recaptcha`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -97,6 +98,14 @@ module.exports = {
         sitemap: 'https://www.opurecreation.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-recaptcha',
+      options: {
+        async: false,
+       defer: false,
+        args: '?onload=onloadCallback&render=explicit',
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,

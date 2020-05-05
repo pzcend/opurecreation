@@ -42,18 +42,22 @@ const ProjectSection = ({section, project}) => {
         <div>
         <ProjectSectionWrap {...section}>
             <div className="project-container">
-                <div className="col-1 offset-1">
+                <div className="col-3 offset-1">
                     <SectionTitle
                         title={projectSecData.title}
                         subtitle={projectSecData.subtitle}
                     />
                 </div>
+                  <p className="col-6 offset-1">
+                  Retrouvez nos dernières réalisations sur cette page.
+                  </p>
             </div>
         </ProjectSectionWrap>
         <BlogSectionWrap {...section}>
 
          <BlogInner className="col-6 offset-1">
                 <div className="row">
+
                     {projectsData.map((data, i) => (
                         <div className="col-2" key={`${data.node.id}-${i}`}>
                             <Blog

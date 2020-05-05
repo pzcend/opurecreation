@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from "gatsby"
 import SlickSlider from '../../../components/shared/slick'
@@ -18,7 +18,7 @@ const TestimonialSection = ({section, options}) => {
                         company
                         author_image {
                             childImageSharp {
-                                fixed(width: 88, height: 88, quality: 100) {
+                                fixed(width: 100, height: 100, quality: 100) {
                                     ...GatsbyImageSharpFixed_withWebp
                                 }
                             }

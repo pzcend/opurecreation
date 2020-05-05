@@ -26,6 +26,9 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
             }
         }      
     `);
+
+    var Recaptcha = require('gatsby-plugin-recaptcha');
+
     const {title, subtitle} = bannerQueryData.pagedataJson;
     const imageData = bannerQueryData.pagedataJson.banner_img.childImageSharp.fluid
     return (
@@ -65,8 +68,10 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                                     placeholder="Message"
                                     {...textareaStyle}
                                 />
+                               
                                 <Button type="submit">Envoyer</Button>
                                 </form>
+                                
                             </Form>
                         </ContactForm>
                     </ContactFormWrap>
