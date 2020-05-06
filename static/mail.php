@@ -18,7 +18,7 @@ if($captcha === 'OPureCreation'){
 
 $reponse ="Merci de valider le captcha avant d'envoyer votre message";
 $retour ="";
-$bouton ="<a class="btn btn-primary btn-lg" href="/contact" role="button">Retour à la page contact</a>"
+$bouton ="<a class="btn btn-primary btn-lg" href="/contact" role="button">Retour à la page contact</a>";
 }
 
 
@@ -34,10 +34,9 @@ $bouton ="<a class="btn btn-primary btn-lg" href="/contact" role="button">Retour
 			<div class="col-md-12">
 				<div style="margin-top:150px">
 				<div class="jumbotron">
-  <h1 class="display-4"><?= $reponse ?></h1>
-  <p class="lead">Merci pour votre message, nous vous recontacterons dans les meilleurs délais.</p>
+  <h1 class="display-4"><?php echo $reponse; ?></h1>
+  <p class="lead"><?php echo $retour; ?></p>
   <hr class="my-4">
- <
   <?= $bouton ?>
 </div>
 			</div>
