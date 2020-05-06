@@ -2,11 +2,25 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+$captcha = $_POST['captcha'];
 $formcontent = "From: $name \n Message: $message";
 $recipient = "contact@opurecreation.com";
 $subject = "Formulaire de contact new site";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+if($captcha === 'OPureCreation'){ 
+	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+
+	$reponse ="Confirmation de la reception de votre message" ;
+	$retour ="Merci pour votre message, nous vous recontacterons dans les meilleurs délais.";
+	$bouton ="<a class="btn btn-primary btn-lg" href="/" role="button">Retour à l'accueil</a>";
+
+}else{
+
+$reponse ="Merci de valider le captcha avant d'envoyer votre message";
+$retour ="";
+$bouton ="<a class="btn btn-primary btn-lg" href="/contact" role="button">Retour à la page contact</a>"
+}
+
 
 ?>
 <html>
@@ -20,11 +34,11 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 			<div class="col-md-12">
 				<div style="margin-top:150px">
 				<div class="jumbotron">
-  <h1 class="display-4">Confirmation de la reception de votre message</h1>
+  <h1 class="display-4"><?= $reponse ?></h1>
   <p class="lead">Merci pour votre message, nous vous recontacterons dans les meilleurs délais.</p>
   <hr class="my-4">
- 
-  <a class="btn btn-primary btn-lg" href="/" role="button">Retour à l'accueil</a>
+ <
+  <?= $bouton ?>
 </div>
 			</div>
 		</div>

@@ -22,7 +22,7 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
                     role
                     image {
                       childImageSharp {
-                        fluid(maxWidth: 200, maxHeight: 200, quality: 100) {
+                        fluid(maxWidth: 320, maxHeight: 375, quality: 100) {
                           ...GatsbyImageSharpFluid_withWebp
                           presentationWidth
                           presentationHeight

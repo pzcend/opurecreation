@@ -19,7 +19,7 @@ is_featured: false
             <div class="rn-blog-content">
                 <h4>Information</h4>
                 <p>O'Pure création travaille depuis 1 an avec les équipes de l'Agence 410 et de Panel Pub à Royan et Saintes.</p>
-                <p>Ensemble nous partageons nos compétences pour présenter de nouveaux modules de sites internet.</p>
+                <p>Ensemble nous partageons nos compétences pour présenter de nouveaux modules de sites internet spcifiques pour les commerçants et les artisans.</p>
                 <ul>
                     <li>Module de site One Page.</li>
                     <li>Module de site Multi Pages</li>

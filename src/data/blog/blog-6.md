@@ -12,6 +12,7 @@ shortDesc: "Le contrat de maintenance de sites Internet est une offre de service
     <div class="row">
         <div class="col-1 offset-1">
             <h2>Composition.</h2>
+            <p>Le contrat de maintenance de sites Internet est une offre de services de O'Pure création pour maintenir à jour, et animer votre site Internet.</p>
         </div>
         <div class="col-2 offset-1">
             <div class="rn-blog-content">

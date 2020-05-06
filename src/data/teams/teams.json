@@ -36,13 +36,14 @@
         "image": "./images/module-espaceprive-securise.png",
         "name": "Module d'espace privé et sécurisé",
         "designation": "Développement",
+         "path": "/contact",
         "role": "administrator"
     },
     {
         "id": "module-paiement",
         "image": "./images/module-paiement-securise.png",
         "name": "Module de paiement sécurisé",
-        "path": "#",
+        "path": "/contact",
         "designation": "Développement",
         "role": "administrator"
     },
@@ -51,7 +52,7 @@
         "image": "./images/module-agenda_partage-rdv.png",
         "name": "Module d'agenda partagé et de prise de rendez vous",
         "designation": "Développement",
-        "path": "#",
+        "path": "/contact",
         "role": "administrator"
     },
     {
@@ -59,7 +60,7 @@
         "image": "./images/module-actualite.png",
         "name": "Module actualité (Blog)",
         "designation": "Développement",
-        "path": "#",
+        "path": "/contact",
         "role": "administrator"
     },
     {
@@ -67,7 +68,7 @@
         "image": "./images/module-insertion_video.png",
         "name": "Insertion de vidéo",
         "designation": "Creation",
-        "path": "#",
+        "path": "/contact",
         "role": "employee"
     },
     {
@@ -75,7 +76,7 @@
         "image": "./images/module-recherche_interne.png",
         "name": "Module de recherche interne",
         "designation": "Développement",
-        "path": "#",
+        "path": "/contact",
         "role": "employee"
     },
     {
@@ -83,14 +84,14 @@
         "image": "./images/campagne-ref.png",
         "name": "Campagne de référencement",
         "designation": "SEO",
-        "path": "#",
+        "path": "/contact",
         "role": "employee"
     },
     {
         "id": "hebergement-site",
         "image": "./images/hebergement.png",
         "name": "Hébergement",
-        "path": "#",
+        "path": "/contact",
         "designation": "hebergement",
         "role": "employee"
     },
@@ -99,7 +100,7 @@
         "image": "./images/campagne-emailling.png",
         "name": "Campagne de E-Mailling",
         "designation": "E-Mailling",
-        "path": "#",
+        "path": "/contact",
         "role": "employee"
     } 
 ]

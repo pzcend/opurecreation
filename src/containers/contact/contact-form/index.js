@@ -68,8 +68,19 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                                     placeholder="Message"
                                     {...textareaStyle}
                                 />
-                               
-                                <Button type="submit">Envoyer</Button>
+                                <h3>Captcha</h3>
+                                <p><img src="/capt.jpg" width="300px" heigt="100px" alt="capt image" /></p>
+                                <p>Merci de taper le mot inscrit dans l'image pour valider l'envoi du formulaire.</p>
+                                <Input
+                                    type="text"
+                                    name="captcha"
+                                    id="captcha"
+                                    placeholder="Captcha"
+                                    {...textareaStyle}
+                                />
+                               <div>
+                                <Button type="submit" {...textareaStyle}>Envoyer</Button>
+                                </div>
                                 </form>
                                 
                             </Form>
@@ -99,6 +110,9 @@ ContactFormSection.defaultProps = {
                 lineHeight: 'initial'
             }
         }
+    },
+    divStyle:{
+        mt: '20px'
     },
     textStyle: {
         as: 'span',
