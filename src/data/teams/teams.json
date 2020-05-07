@@ -3,7 +3,7 @@
         "id": "module-vitrine",
         "image": "./images/forfait_vitrine_plus.png",
         "name": "Forfait vitrine plus",
-        "designation": "Module Principal",
+        "designation": "Forfait site Web",
         "path": "/site-internet-vitrine-plus",
         "role": "administrator"
     },
@@ -11,7 +11,7 @@
         "id": "module-vitrineexpert",
         "image": "./images/forfait_vitrine_expert.png",
         "name": "Forfait vitrine expert",
-        "designation": "Module principal",
+        "designation": "Forfait site Web",
         "path": "/site-internet-vitrine-expert",
         "role": "administrator"
     },
@@ -19,7 +19,7 @@
         "id": "module-ecommerce",
         "image": "./images/forfait_e_commerce.png",
         "name": "Forfait E-commerce",
-        "designation": "Module principal",
+        "designation": "Forfait site Web",
         "path": "/site-internet-e-commerce",
         "role": "administrator"
     },
@@ -27,7 +27,7 @@
         "id": "module-maintenance",
         "image": "./images/forfait_maintenance.png",
         "name" : "Forfait maintenance",
-        "designation": "Module principal",
+        "designation": "Service Web",
         "path": "/maintenance-de-votre-site-internet",
         "role": "administrator"
     },
@@ -35,7 +35,7 @@
         "id": "espace-prive",
         "image": "./images/module-espaceprive-securise.png",
         "name": "Module d'espace privé et sécurisé",
-        "designation": "Développement",
+        "designation": "Service Web",
          "path": "/contact",
         "role": "administrator"
     },
@@ -44,14 +44,14 @@
         "image": "./images/module-paiement-securise.png",
         "name": "Module de paiement sécurisé",
         "path": "/contact",
-        "designation": "Développement",
+        "designation": "Service Web",
         "role": "administrator"
     },
     {
         "id": "module-agenda",
         "image": "./images/module-agenda_partage-rdv.png",
         "name": "Module d'agenda partagé et de prise de rendez vous",
-        "designation": "Développement",
+        "designation": "Service Web",
         "path": "/contact",
         "role": "administrator"
     },
@@ -59,7 +59,7 @@
         "id": "module-actualite",
         "image": "./images/module-actualite.png",
         "name": "Module actualité (Blog)",
-        "designation": "Développement",
+        "designation": "Service Web",
         "path": "/contact",
         "role": "administrator"
     },
@@ -67,7 +67,7 @@
         "id": "insertion-video",
         "image": "./images/module-insertion_video.png",
         "name": "Insertion de vidéo",
-        "designation": "Creation",
+        "designation": "Service Web",
         "path": "/contact",
         "role": "employee"
     },
@@ -75,7 +75,7 @@
         "id": "module-recherche",
         "image": "./images/module-recherche_interne.png",
         "name": "Module de recherche interne",
-        "designation": "Développement",
+        "designation": "Service Web",
         "path": "/contact",
         "role": "employee"
     },
@@ -83,7 +83,7 @@
         "id": "referencement-seo",
         "image": "./images/campagne-ref.png",
         "name": "Campagne de référencement",
-        "designation": "SEO",
+        "designation": "Service Web",
         "path": "/contact",
         "role": "employee"
     },
@@ -92,14 +92,14 @@
         "image": "./images/hebergement.png",
         "name": "Hébergement",
         "path": "/contact",
-        "designation": "hebergement",
+        "designation": "Service Web",
         "role": "employee"
     },
     {
         "id": "campagne-emailling",
         "image": "./images/campagne-emailling.png",
         "name": "Campagne de E-Mailling",
-        "designation": "E-Mailling",
+        "designation": "Service Web",
         "path": "/contact",
         "role": "employee"
     } 

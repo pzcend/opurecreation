@@ -36,6 +36,7 @@ $retour ="";
 				<div style="margin-top:150px">
 				<div class="jumbotron">
   <h1 class="display-4"><?php echo $reponse; ?></h1>
+  <p><?php echo $retour; ?></p>
   <p class="lead"><a class="btn btn-primary btn-lg" href="/contact" role="button">Retour à la page contact</a></p>
   <hr class="my-4">
   <?= $bouton ?>

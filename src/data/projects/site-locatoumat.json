@@ -9,10 +9,12 @@
     "cover_image": "./images/site-locatoumat/locatoumat.jpg",
     "body": [
         "Refonte du site internet du Groupe LOCATOUMAT, entreprise de location de matériel pour les professionnels et les particuliers.",
-        "Site intrégrant les 15 Agences Régionales",
+        "Entreprise située à Angoulême en Charente",
+        "Site intrégrant les 15 Agences Régionales du groupe LOCATOUMAT",
         "Carte dynamique des agences du groupe avec localisation et informations spécifiques.",
         "Présentation de différents services de l'entreprise",
-        "Catalogue de produits par gamme."
+        "Catalogue de produits par gamme.",
+        "Fiche produit spécifique, avec photo de mise en situation"
     ],
     "features": [
         {
