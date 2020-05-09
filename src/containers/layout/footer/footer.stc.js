@@ -121,7 +121,7 @@ export const FooterBottom = styled.div `
     justify-content: space-between;
     padding: 20px 0 45px;
     @media ${device.small} {
-        flex-direction: row;
+        flex-direction: column-reverse;
         justify-content: space-between;
         align-items: flex-start;
         text-align: left;
