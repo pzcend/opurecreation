@@ -121,7 +121,7 @@ export const FooterBottom = styled.div `
     justify-content: space-between;
     padding: 20px 0 45px;
     @media ${device.small} {
-        flex-direction: column-reverse;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         text-align: left;
@@ -137,4 +137,7 @@ export const FooterBottomLeft = styled.div `
         padding-top: 7vw;
     }
 `;
+export const FooterBottomMiddle = styled.div ``;
+
 export const FooterBottomRight = styled.div ``;
+

@@ -19,7 +19,8 @@ import {
     ScrollTop,
 	FooterBottom,
 	FooterBottomLeft,
-	FooterBottomRight
+	FooterBottomRight,
+	FooterBottomMiddle
 } from './footer.stc'
 
 const Footer = ({
@@ -43,6 +44,7 @@ const Footer = ({
             site {
                 siteMetadata {
 				  copyright
+				  localisation
                   contact {
                     postal_code
 					address
@@ -59,7 +61,7 @@ const Footer = ({
         }      
     `);
 
-    const {copyright, contact} = siteQueryData.site.siteMetadata;
+    const {copyright, contact, localisation} = siteQueryData.site.siteMetadata;
 	const {postal_code, email, address, social: {facebook, twitter, linkedin}} = contact
 
     return (
@@ -107,6 +109,9 @@ const Footer = ({
 						<Text {...copyrightStyle}>{new Date().getFullYear()} {copyright}</Text>
 					</FooterBottomLeft>
 				)}
+				<FooterBottomMiddle>
+				<Text{...copyrightStyle}> {localisation}</Text>
+				</FooterBottomMiddle>
 				<FooterBottomRight>
 					<Social {...socialStyle}>
 						{facebook && <SocialLink path={facebook}>Facebook</SocialLink>}
