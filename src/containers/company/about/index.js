@@ -5,7 +5,7 @@ import Heading from '../../../components/shared/heading'
 import Text from '../../../components/shared/text'
 import {AboutSectionWrap, SectionTitle, AboutContent, ProjectTypeList} from './about.stc'
  
-const About = ({HeadingStyle, paragraph, TextStyle, ProjectTypeHeading, ProjectTypeText}) => {
+const About = ({HeadingStyle, Heading2Style, paragraph, TextStyle, ProjectTypeHeading, ProjectTypeText}) => {
     const aboutQueryData = useStaticQuery(graphql `
         query AboutDataQuery {
             aboutdataJson(id: {eq: "about-intro-content"}) {
@@ -55,6 +55,7 @@ const About = ({HeadingStyle, paragraph, TextStyle, ProjectTypeHeading, ProjectT
                                         data-wow-delay={`${delay}ms`} 
                                         data-wow-duration="1000ms">
                                         {work.title && <Heading {...ProjectTypeHeading}>{work.title}</Heading>}
+                                    
                                         {work.achivments && (
                                             <ProjectTypeList>
                                                 {work.achivments.map((achiv, i) => (
@@ -102,6 +103,14 @@ About.defaultProps = {
     ProjectTypeHeading: {
         as: 'h6',
         color: 'primary',
+        fontSize: '12px',
+        fontweight: 700,
+        letterspacing: '2px',
+        mb: '12px'
+    },
+     ProjectTypeHeading2: {
+        as: 'h6',
+        color: '#ff005a',
         fontSize: '12px',
         fontweight: 700,
         letterspacing: '2px',

@@ -28,7 +28,7 @@ module.exports = {
         dribbble: 'https://dribbble.com'
       }
     },
-    copyright: "Pierre VIGOUROUX - O' Pure Création ",
+    copyright: "O' Pure Création ",
     localisation: "Charente - Charente-Maritime - Cognac - Angoulême - Saintes - Royan - La Rochelle"
   },
   plugins: [

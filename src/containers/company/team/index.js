@@ -10,6 +10,7 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
         query TeamDataQuery {
             aboutdataJson(id: {eq: "about-team-section-content"}) {
                 title
+                title2
                 subtitle
             }
             allTeamsJson {
@@ -42,10 +43,11 @@ const TeamSection = ({wrapperOne, wrapperTwo}) => {
     return (
         <TeamSectionWrap>
             <TeamContainer>
-                <div className="col-2 offset-1">
+                <div className="col-3 offset-1">
                     <SectionTitle
                         subtitle={teamSecData.subtitle}
                         title={teamSecData.title}
+                        title2={teamSecData.title2}
             
                     />
                 </div>
@@ -104,7 +106,8 @@ TeamSection.defaultProps = {
         pt: '20px'
     },
     wrapperTwo: {
-        pt: '20px'
+        pt: '20px',
+        color: '#ff005a'
     }
 }
 

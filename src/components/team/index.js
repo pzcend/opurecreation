@@ -65,7 +65,7 @@ Team.defaultProps = {
             fontSize: '12px',
             lineHeight: '26px',
             mb: 0,
-            color: '#000'
+            color: '#ff005a'
         }
     }
 }

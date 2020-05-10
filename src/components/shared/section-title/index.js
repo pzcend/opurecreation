@@ -4,11 +4,11 @@ import Heading from '../heading'
 import Text from '../text'
 import {TitleWrapper} from './section-title.stc'
 
-const SectionTitle = ({title, subtitle, titleStyle, subtitleStyle}) => {
+const SectionTitle = ({title, title2, subtitle, titleStyle, title2Style, subtitleStyle}) => {
     return (
         <TitleWrapper>
             {subtitle && <Text {...subtitleStyle}>{subtitle}</Text>}
-            {title && <Heading {...titleStyle}>{title}</Heading>}
+            {title && <Heading {...titleStyle}>{title}</Heading>} {title2 && <Heading {...title2Style}>{title2}</Heading>}
         </TitleWrapper>
     )
 }
@@ -23,6 +23,23 @@ SectionTitle.defaultProps = {
     titleStyle: {
         fontSize: '36px',
         color: 'primary',
+        fontweight: 600,
+        responsive: {
+            xlarge: {
+                fontSize: '28px'
+            },
+            large: {
+                fontSize: '24px',
+                lineHeight: 'initial'
+            },
+            small: {
+                fontSize: '16px'
+            }
+        }
+    },
+    title2Style: {
+        fontSize: '30px',
+        color: '#ff005a',
         fontweight: 600,
         responsive: {
             xlarge: {
