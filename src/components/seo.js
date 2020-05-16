@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-const SEO = ({ title, description, image, pathname }) => (
+const SEO = ({ title, description, image, pathname, type }) => (
   <StaticQuery
     query={query}
     render={({
@@ -14,15 +14,31 @@ const SEO = ({ title, description, image, pathname }) => (
           siteUrl,
           defaultImage,
           twitterUsername,
+          type
         },
       },
+
     }) => {
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
         image: `${siteUrl}${image || defaultImage}`,
         url: `${siteUrl}${pathname || "/"}`,
+
       }
+
+    
+         var schemaProduct = {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "création site internet vitrine",
+          "image": "https://opurecreation.com/icons/icon-152x152.png",
+          "description": "Ce module vous permettra de promouvoir votre activité sur internet de manière simple et efficace. Les différentes catégories vous permettent de présenter une entreprise dans sa globalité ou de rentrer dans les détails d’un produit, d’un service, ou d’une activité plus précise.",
+          "brand": "O Pure création"
+        }
+
+
+
       return (
         <>
           <Helmet title={seo.title} titleTemplate={`%s | ${titleTemplate}`}>
@@ -47,6 +63,10 @@ const SEO = ({ title, description, image, pathname }) => (
               <meta name="twitter:description" content={seo.description} />
             )}
             {seo.image && <meta name="twitter:image" content={seo.image} />}
+            {<script type="application/ld+json">
+              {JSON.stringify(schemaProduct)}
+              </script>}
+
           </Helmet>
         </>
       )
@@ -78,6 +98,7 @@ const query = graphql`
         siteUrl: siteUrl
         defaultImage: image
         twitterUsername
+        type
       }
     }
   }

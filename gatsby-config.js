@@ -13,6 +13,7 @@ module.exports = {
     twitterUsername: `@OpureCreation`,
     image: 'bg-image-1.jpg',
     siteUrl: 'https://www.opurecreation.com',
+    type: "Product",
     contact: {
       postal_code: '16200 <br/> NERCILLAC.',
       address: '656 rue de Cognac 16200 NERCILLAC',
@@ -29,7 +30,7 @@ module.exports = {
       }
     },
     copyright: "O' Pure Création ",
-    localisation: "Charente - Charente-Maritime - Cognac - Angoulême - Saintes - Royan - La Rochelle"
+    localisation: "Charente - Charente-Maritime - Cognac - Angoulême - Saintes - Royan - La Rochelle",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
