@@ -29,27 +29,42 @@ const SEO = ({ title, description, image, pathname, type }) => (
 
     
          var schemaProduct = {
-          "@context": "https://schema.org/",
-          "@type": "Product",
-          "name": "création site internet vitrine",
-          "image": "https://opurecreation.com/icons/icon-152x152.png",
-          "description": "Ce module vous permettra de promouvoir votre activité sur internet de manière simple et efficace. Les différentes catégories vous permettent de présenter une entreprise dans sa globalité ou de rentrer dans les détails d’un produit, d’un service, ou d’une activité plus précise.",
-          "brand": {
-            "@type": "Brand",
-            "name": "O Pure création"
-          },
-          "sku": "siteInternetVitrine",
-          "npm": 'web',
-          "author": {
-              "@type": "Person",
-              "name": "Pierre VIGOUROUX"
-          },
-          "offers": {
-              "@type": "Offer",
-              "url": "https://www.opurecreation.com/site-internet-vitrine-plus",
-
-          }
-
+        "@context": "https://schema.org/",
+ "@type": "Product",
+ "name": "création site internet vitrine",
+ "image": "https://www.opurecreation.com/icons/icon-152x152.png",
+ "description": "Ce module vous permettra de promouvoir votre activité sur internet de manière simple et efficace. Les différentes catégories vous permettent de présenter une entreprise dans sa globalité ou de rentrer dans les détails d’un produit, d’un service, ou d’une activité plus précise.",
+ "brand": {
+     "@type": "Brand",
+      "name": "O Pure création"
+      },
+ "sku": "siteInternetVitrine",
+ "mpn": "SITE-1",
+ "offers": {
+     "@type": "Offer",
+     "url": "https://www.opurecreation.com/site-internet-vitrine-plus",
+     "price": "00",
+      "priceValidUntil": "2020-11-20",
+    "priceCurrency": "EUROS",
+    "availability": "http://schema.org/InStock"
+    },
+     "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4",
+          "bestRating": "5"
+        },
+         "author": {
+          "@type": "Person",
+          "name": "Pierre Vigouroux"
+        }
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "89"
+      }
         }
 
 
