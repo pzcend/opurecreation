@@ -34,7 +34,22 @@ const SEO = ({ title, description, image, pathname, type }) => (
           "name": "création site internet vitrine",
           "image": "https://opurecreation.com/icons/icon-152x152.png",
           "description": "Ce module vous permettra de promouvoir votre activité sur internet de manière simple et efficace. Les différentes catégories vous permettent de présenter une entreprise dans sa globalité ou de rentrer dans les détails d’un produit, d’un service, ou d’une activité plus précise.",
-          "brand": "O Pure création"
+          "brand": {
+            "@type": "Brand",
+            "name": "O Pure création"
+          },
+          "sku": "siteInternetVitrine",
+          "npm": 'web',
+          "author": {
+              "@type": "Person",
+              "name": "Pierre VIGOUROUX"
+          },
+          "offers": {
+              "@type": "Offer",
+              "url": "https://www.opurecreation.com/site-internet-vitrine-plus",
+
+          }
+
         }
 
 
