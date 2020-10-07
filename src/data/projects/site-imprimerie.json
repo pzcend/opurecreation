@@ -1,0 +1,32 @@
+{
+    "id": "site-imprimerie",
+    "title": "Site Vitrine",
+    "client": "Imprimerie Traditionnelle",
+    "sector": "Imprimeur",
+    "year": "2019",
+     "url":"https://www.imprimerie-traditionnelle.fr",
+    "featured_image": "./images/site-imprimerie/imprimerie.jpg",
+    "cover_image": "./images/site-imprimerie/imprimerie.jpg",
+    "body": [
+        "Refonte site vitrine du site internet de l'imprimerie traditionnelle situé à Chateaubernard (16100).",
+        "Fabricant français de sac à pain publicitaire.",
+        "Le sac à pain est un support publicitaire convivial et non invasif. Il est indispensable aux boulangers.",
+        "La seule publicité, qui protège la nourriture de base des Français.",   
+    ],
+    "features": [
+        {
+            "id": "smart-feature-1",
+            "title": "Détail",
+            "image": "./images/site-imprimerie/detail-imprimerie.jpg",
+            "text": [
+                "Site présentant l'entreprise et les produits fabriqués : sac à pains publicitaire.",
+                "Site Vitrine avec détail des produits.",
+                "Arborescence du site modulable et évolutive.",
+                "Formulaire de contact avec demande de devis intégrée."
+                "Structure Web-Responsive adaptable aux différents taille d'écrans (PC, Tablette, Smartphone."
+                "Travail important de référencement naturel sur un marché concurentiel."
+            ]
+        }
+    
+    ]
+}

@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "O Pure Creation, développeur Web et Mobile",
     titleTemplate: `Création de site internet à Cognac en Charente et Poitou Charentes`,
-    description: `Le savoir faire d'un développeur WEB, vous assure un partenaire efficace pour créer un site internet et un bon référencement naturel en Charente et Nouvelle Aquitaine. O'Pure Création développe des sites vitrine, des E-commerce, des applications Web  réactives.`,
+    description: `Le savoir faire d'un développeur WEB, vous assure un partenaire efficace pour créer un site internet et un bon référencement naturel en Charente et Nouvelle Aquitaine. O'Pure Création développe des sites vitrine, des E-commerce, des applications Web.`,
     author: `@OpureCreation`,
     twitterUsername: `@OpureCreation`,
     image: 'bg-image-1.jpg',

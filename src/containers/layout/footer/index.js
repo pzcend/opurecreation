@@ -74,7 +74,7 @@ const Footer = ({
 			</FooterTop>
 			<FooterMiddle>
 				<FooterMiddleLeft>
-					<Heading {...headingStyle}>Projet Web!</Heading>
+					<Heading {...headingStyle}>DEVELOPPEUR WEB</Heading>
 					{email && <Text {...emailTextStyle}><Link {...emailLinkStyle}>{email}</Link></Text>}
 				</FooterMiddleLeft>
 				<FooterMiddleRight>
