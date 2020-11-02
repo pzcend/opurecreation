@@ -1,29 +1,31 @@
----
-title: 'Collaboration Agence 410'
-date: 2020-02-02 06:00:00
+--
+title: 'Click & Collect'
+date: 2020-11-02 06:00:00
 author: 'Pierre VIGOUROUX'
 id: 'blog-2'
 categorie: 'Informations'
-image: './images/blog-2/agence410.jpg'
-shortDesc: 'O Pure Création travaille en collaboration sur Saintes et Royan pour le développement de site internet avec Panel Pub et Agence 410'
+image: './images/blog-2/clickc.jpg'
+shortDesc: 'Intégrer un module de Click & Collect dans votre site internet, et proposer la réservation et le paiement à votre boutique.'
 is_featured: false
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">
     <div class="row">
         <div class="col-1 offset-1">
-            <h2>Collaboration Agence 410.</h2>
-            <p>O Pure Création travaille en collaboration sur Saintes et Royan pour le développement de site internet avec Panel Pub et Agence 410</p>
+            <h2>Click & Collect.</h2>
+            <p>O Pure Création vous propose de développer et d'intégrer un module de réservation en ligne pour vos produits sur votre site internet.</p>
         </div>
         <div class="col-2 offset-1">
             <div class="rn-blog-content">
                 <h4>Information</h4>
-                <p>O'Pure création travaille depuis 1 an avec les équipes de l'Agence 410 et de Panel Pub à Royan et Saintes.</p>
-                <p>Ensemble nous partageons nos compétences pour présenter de nouveaux modules de sites internet spcifiques pour les commerçants et les artisans.</p>
+                <p>O'Pure création développe un module de Click & Collect pour vous permettre de proposer à vos clients un service de réservation en ligne.</p>
+                <p>Vos clients peuvent ainsi accéder à la liste de vos produits et choisir tranquillement 24h/24 7j/7 parmi ceux mis en ligne et venir effectuer le retrait et le règlement dans votre boutique.</p>
+                <p>Vous êtes contacter par email pour la réservervation des produits.</p>
                 <ul>
-                    <li>Module de site One Page.</li>
-                    <li>Module de site Multi Pages</li>
-                    <li>Module de site E Commerce ou autres....</li>
+                    <li>Réservation en ligne gratuite.</li>
+                    <li>Catalogue des produits disponibles.</li>
+                    <li>Paiement et retrait en boutique.</li>
+                    <li>Module externe à intégrer dans votre site avec administration pour la gestion de vos produits.</li>
                 </ul>
          
             </div>
@@ -32,7 +34,7 @@ is_featured: false
 </div>
 
 <div class="full-width-box">
-    <img src="./images/blog-2/agence-410.png" alt="collaboration agence 410"/>
+    <img src="./images/blog-2/shop.png" alt="Click & Collect"/>
 </div>
 
 
