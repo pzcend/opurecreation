@@ -53,6 +53,7 @@
     {
         "id": "particle_recent_post_section_content",
         "title": "Nos services",
-        "subtitle": "INFORMATIONS"
+        "subtitle": "INFORMATIONS",
+        "link": "/nos-services"
     }
 ]

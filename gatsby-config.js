@@ -15,7 +15,7 @@ module.exports = {
     siteUrl: 'https://www.opurecreation.com',
     type: "Product",
     contact: {
-      postal_code: '16200 <br/> NERCILLAC.',
+      postal_code: '656 rue de Cognac 16200 NERCILLAC<br>06.11.79.36.56',
       address: '656 rue de Cognac 16200 NERCILLAC',
       email: 'contact@opurecreation.com',
       company_email: 'contact@opurecreation.com',

@@ -12,7 +12,7 @@ const BlogSection = ({section}) => {
                 title
                 subtitle
             }
-            allMarkdownRemark(filter: {frontmatter: {is_featured: {eq: true}}}, limit: 2, sort: {order: DESC, fields: frontmatter___date}) {
+            allMarkdownRemark(filter: {frontmatter: {is_featured: {eq: true}}}, limit: 4, sort: {order: DESC, fields: frontmatter___date}) {
                 edges {
                   node {
                     fields {

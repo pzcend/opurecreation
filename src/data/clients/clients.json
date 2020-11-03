@@ -1,10 +1,10 @@
 [
     {
         "id": "client_1",
-        "link": "https://www.saint-sulpice-de-cognac.fr/",
+        "link": "https://www.tonnellerie-vinet.com/",
         "image": "./images/logo1.png",
-        "name": "Commune Saint Sulpice de Cognac",
-        "categorie": "Institutionnel"
+        "name": "Tonnellerie Vinet",
+        "categorie": "Vins et Spiritueux"
     },
     {
         "id": "client_2",
@@ -57,10 +57,10 @@
     },
     {
         "id": "client_9",
-        "link": "https://www.relaisdubois.com",
+        "link": "https://www.bernard-boireau.fr",
         "image": "./images/logo8.png",
-        "name": "Le Relais du Bois St Georges",
-        "categorie": "Hotel / Restaurant"
+        "name": "Marbrerie Bernard Boireau",
+        "categorie": "Entreprise"
     },
     {
         "id": "client_10",
