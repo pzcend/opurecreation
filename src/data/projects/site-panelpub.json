@@ -5,9 +5,10 @@
     "sector": "Agence de communication",
     "year": "2019",
     "url":"https://www.panelpub.com",
-    "is_featured": true,
     "featured_image": "./images/site-panelpub/panelpub.jpg",
     "cover_image": "./images/site-panelpub/panelpub.jpg",
+     "path": "https://www.opurecreation.com/project/site-panelpub",
+    "tags": "Site Web communication",
     "body": [
         "Refonte du site internet Panelpub.com",
         "Entreprise de produits de communication visuelle située à Saintes en Charente-maritime.",
@@ -23,7 +24,8 @@
                 "Accueil présentant les différents thèmes présent dans le site.",
                 "Catalogue de produits par gamme.",
                 "Galerie photos"
-            ]
+            ],
+            
         }
     ]
 }

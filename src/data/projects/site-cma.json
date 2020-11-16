@@ -7,6 +7,8 @@
     "url": "https://www.cma-charente.fr",
     "featured_image": "./images/business-agency/cma.jpg",
     "cover_image": "./images/business-agency/cma.jpg",
+     "path": "https://www.opurecreation.com/project/site-cma",
+    "tags": "Site institutionnel",
     "is_featured": true,
     "body": [
         "Refonte du site internet de la Chambre de Métiers de la Charente.",
@@ -28,7 +30,9 @@
                 "Messagerie instantanée",
                 "Site internet évolutif par une administration personnalisée.",
                 "Structure du site Web-Responsive adaptable aux différents écrans (PC, Tablette, Smartphone)."
-            ]
+            ],
+            "offre": "Site Vitrine institutionnel",
+            "tarif": "Nous consultez"
         }
         
     ]

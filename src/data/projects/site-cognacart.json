@@ -5,6 +5,8 @@
     "sector": "Art contemporain",
     "year": "2019",
     "url":"http://www.cognac-art.com",
+     "path": "https://www.opurecreation.com/project/site-cognacart",
+    "tags": "Site vitrine commerce",
     "featured_image": "./images/site-cognacart/cognac-art.jpg",
     "cover_image": "./images/site-cognacart/cognac-art.jpg",
     "body": [
@@ -23,7 +25,9 @@
                 "Module de vente en ligne.",
                 "Actualités et Blog",
                 "Messagerie instantanée"
-            ]
+            ],
+            "offre": "Site Vitrine E commerce",
+            "tarif": "Nous consultez"
         }
         
     ]

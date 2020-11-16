@@ -4,6 +4,7 @@ date: 2020-01-15 02:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-7'
 categorie: 'Service Web'
+tags : 'Service Web'
 image: './images/blog-6/communication.jpg'
 shortDesc: "Communiquez et informez vos contacts de vos dernières activités ou actualités de votre site internet. Ce service personnalisé vous permettra de créer une politique de communication entre vos contacts et vos activités."
 ---

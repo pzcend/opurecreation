@@ -7,6 +7,7 @@ import Layout from '../../containers/layout/layout'
 import Banner from '../../containers/single-project/banner'
 import Heading from '../../components/shared/heading'
 import Text from '../../components/shared/text'
+import ShareButtons from "../../components/shared/share/share.component"
 import SectionTitle from '../../components/shared/section-title'
 import Image from '../../components/image'
 import Project from '../../components/project'
@@ -20,9 +21,13 @@ import {
     NextProjectWrap} from './project-template.stc'
 
 const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) => {
-    const {title, metaHeading, metaText, nextProjectStyle} = restProps;
+  
+    const {title, url, path, tags, metaHeading, metaText, metaShare, nextProjectStyle} = restProps;
     const projectData = data.projectsJson;
     const {body, features, cover_image } = projectData;
+     const twitterHandle = "_MsLinda";
+     const chemin = restProps.location.href;
+   
 
     return (
         <Layout>
@@ -46,11 +51,12 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                                     {projectData.url && (
                                         <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                             <Heading {...metaHeading}>Lien site</Heading>
-                                            <Text {...metaText}><a target="_blank" href={projectData.url}>{projectData.url}</a></Text>
+                                            <Text {...metaText}><a target="_blank" rel="noopener noreferrer" href={projectData.url}>{projectData.url}</a></Text>
                                         </ProjectType>
                                     )}
                                 </ProjectHeaderMeta>
                             </div>
+ 
                         </div>
                         <div className="col-2 offset-1">
                             <div className="rn-project-content">
@@ -72,7 +78,12 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                                             {body && body.map((text, i) => <div key={`text-${i}`}>{text}</div>)}
                                 
                                         </ProjectType>
-                                   
+                                    <div>
+                                     <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                    <Heading {...metaHeading}>Partage</Heading>
+          <ShareButtons {...metaShare} title={title} url={chemin} twitterHandle={twitterHandle} tags={tags}/>
+          </ProjectType>
+      </div>
 
 
                                
@@ -201,7 +212,8 @@ export const query = graphql `
 ProjectTemplate.propTypes = {
     title: PropTypes.object,
     metaHeading: PropTypes.object,
-    metaText: PropTypes.object
+    metaText: PropTypes.object,
+    metaShare : PropTypes.object,
 }
 
 ProjectTemplate.defaultProps = {
@@ -223,6 +235,9 @@ ProjectTemplate.defaultProps = {
         fontweight: 700,
         letterspacing: '2px',
         mb: '12px',
+    },
+     metaShare: {
+        marginRight: '1rem',
     },
     metaText: {
         m: 0,

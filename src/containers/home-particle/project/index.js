@@ -13,7 +13,7 @@ const ProjectSection = ({section, project}) => {
         title
         subtitle
       }
-      allProjectsJson(filter: {is_featured: {eq: true}}, limit: 4) {
+      allProjectsJson(filter: {is_featured: {eq: true}}, limit: 6) {
         edges {
           node {
             id

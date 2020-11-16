@@ -1,23 +1,23 @@
 var plugins = [{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-recaptcha/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-recaptcha/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"O pure Création","short_name":"O Pure Création","start_url":"/","background_color":"#333333","theme_color":"#001c43","display":"standalone","icons":[{"src":"/icons/icon-72x72.png","sizes":"72x72","type":"image/png"},{"src":"/icons/icon-96x96.png","sizes":"96x96","type":"image/png"},{"src":"/icons/icon-128x128.png","sizes":"128x128","type":"image/png"},{"src":"/icons/icon-144x144.png","sizes":"144x144","type":"image/png"},{"src":"/icons/icon-152x152.png","sizes":"152x152","type":"image/png"},{"src":"/icons/icon-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/icons/icon-384x384.png","sizes":"384x384","type":"image/png"},{"src":"/icons/icon-512x512.png","sizes":"512x512","type":"image/png"}]},
     },{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Poppins","subsets":["latin"],"variants":["300","300i","400","400i","500","600","700","900"]}]},
     },{
-      plugin: require('/Users/opurecreation/Documents/dev/react/opurecreation/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-10906143-1"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

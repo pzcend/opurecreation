@@ -7,6 +7,8 @@
      "url":"https://www.tonnellerie-vinet.com",
     "featured_image": "./images/site-vinet/vinet.jpg",
     "cover_image": "./images/site-vinet/vinet.jpg",
+     "path": "https://www.opurecreation.com/project/site-vinet",
+    "tags": "Site web tonnelier",
     "body": [
         "Refonte site vitrine du site internet de la tonnellerie Vinet situé à Cherves Richemont (16100).",
         "Entreprise artisanale spécialisée dans la fabrication traditionnelle et la réparation de fûts de grande qualité destinés à l’élevage des vins fins ou au vieillissement des eaux de vie.",
@@ -22,7 +24,8 @@
                 "Site Vitrine avec détail des produits.",
                 "Arborescence du site modulable et évolutive.",
                 "Structure Web-Responsive adaptable aux différents taille d'écrans (PC, Tablette, Smartphone."
-            ]
+            ],
+            
         }
     
     ]

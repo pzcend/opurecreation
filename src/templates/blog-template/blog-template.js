@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import {graphql} from 'gatsby'
 import SEO from '../../components/seo';
+import ShareButtons from "../../components/shared/share/share.component"
 import Layout from '../../containers/layout/layout'
 import Heading from '../../components/shared/heading'
 import Text from '../../components/shared/text'
@@ -15,9 +15,14 @@ import {
 } from './blog-template.stc'
  
 function BlogTemplate({data, ...restProps}) {
-    const {titleStyle, metaBoxStyle, metaHeadingStyle, metaTextStyle} = restProps;
+    const {titleStyle, metaBoxStyle, metaText, metaHeadingStyle, metaTextStyle} = restProps;
     const post = data.markdownRemark.frontmatter;
+    const title = `Read ${data.markdownRemark.frontmatter.title} `;
+    const path = data.markdownRemark.frontmatter.path;
+    const tags = data.markdownRemark.frontmatter.tags;
     const imageData = post.image.childImageSharp.fluid;
+    const twitterHandle = "_MsLinda";
+   
    
     return (
         <Layout>
@@ -28,6 +33,8 @@ function BlogTemplate({data, ...restProps}) {
                         <div className="col-2 offset-1">
                             <div className="rn-blog-details-meta-inner">
                                 <Heading {...titleStyle}>{post.title}</Heading>
+                                
+                
                             </div>
                         </div>
                         <div className="col-1 offset-1">
@@ -38,6 +45,8 @@ function BlogTemplate({data, ...restProps}) {
                                 <BlogDetailsMeta {...metaBoxStyle}>
                                     <Text {...metaTextStyle}>Développeur :</Text>
                                     <Heading {...metaHeadingStyle}>{post.author}</Heading>
+                                   
+
                                 </BlogDetailsMeta>
                               
                             </BlogDetailsMetaWrap>
@@ -45,7 +54,11 @@ function BlogTemplate({data, ...restProps}) {
                     </div>
                 </BlogDetailsHeader>
                 <BlogDetailsContent>
+                 
                     <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}/>
+
+        
+
                 </BlogDetailsContent>
                
             </BlogDetailsWrap>

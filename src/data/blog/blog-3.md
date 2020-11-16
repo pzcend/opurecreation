@@ -4,6 +4,7 @@ date: 2020-01-15 02:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-3'
 categorie: 'Forfait Site Web'
+tags : 'Forfait Site Web'
 image: './images/blog-3/communication.jpg'
 is_featured: true
 shortDesc: 'Ce module vous permettra de promouvoir votre activité sur internet de manière simple et efficace. Les différentes catégories vous permettent de présenter une entreprise dans sa globalité ou de rentrer dans les détails d’un produit, d’un service, ou d’une activité plus précise.'
