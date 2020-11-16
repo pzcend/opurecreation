@@ -4,7 +4,6 @@ date: 2020-11-02 17:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-1'
 categorie: 'Service Web'
-tags: 'Service Web'
 is_featured: true
 image: './images/blog-6/communication.jpg'
 shortDesc: "Intégrer un module de Click & Collect dans votre site internet et proposer la réservation en ligne gratuite de vos produits ainsi que le paiement et le retrait en boutique. Ce module externe vous permettra une meilleure visibilité, vos clients pourront réserver en ligne."

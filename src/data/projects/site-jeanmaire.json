@@ -7,7 +7,6 @@
      "url":"https://www.atelier-xavierjeanmaire.fr",
     "featured_image": "./images/site-jeanmaire/jeanmaire.jpg",
     "cover_image": "./images/site-jeanmaire/jeanmaire.jpg",
-     "path": "https://www.opurecreation.com/project/site-jeanmaire",
     "tags": "Site vitrine artisant",
     "body": [
         "Création du site internet atelier-xavierjeanmaire.fr",
@@ -25,7 +24,7 @@
                 "Catalogue de produits par gamme .",
                 "Galerie photos",
                 "Pages dynamiques misent à jour par une administration indépendante."
-            ],
+            ]
            
         }
     ]

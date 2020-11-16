@@ -4,7 +4,6 @@
     "client": "DISCOGLASS",
     "sector": "Verrier Vins & Spiritueux",
     "year": "2019",
-     "path": "https://www.opurecreation.com/project/site-discoglass",
     "tags": "Site vitrine entreprise",
      "url":"https://www.discoglass.fr",
     "featured_image": "./images/creative-agency/disco.jpg",
@@ -25,7 +24,7 @@
                 "Catalogue technique de produits par gamme spécifique.",
                 "Galerie photos originale",
                 "Design épuré et moderne"
-            ],
+            ]
            
         }
     ]

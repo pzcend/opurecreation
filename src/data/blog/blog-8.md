@@ -4,7 +4,6 @@ date: 2020-01-15 02:00:00
 author: 'P.VIGOUROUX'
 id: 'blog-8'
 categorie: 'Service Web'
-tags : 'Service Web'
 is_featured: true
 image: './images/blog-6/communication.jpg'
 shortDesc: "Pour que votre site internet puisse être visible rapidement dans les premières pages des moteurs de recherche, O'Pure création applique des règles stricts dans l'optimisation de la structure de votre site."

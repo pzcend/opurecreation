@@ -5,7 +5,6 @@
     "sector": "Location matériel de BTP",
     "year": "2018",
     "url":"https://www.locatoumat.com",
-     "path": "/project/site-locatoumat",
     "tags": "Site web entreprise",
     "featured_image": "./images/site-locatoumat/locatoumat.jpg",
     "cover_image": "./images/site-locatoumat/locatoumat.jpg",
@@ -27,7 +26,7 @@
                 "Accueil présentant les différents thèmes présent dans le site.",
                 "Catalogue de produits par gamme.",
                 "Galerie photos"
-            ],
+            ]
            
         }
     ]

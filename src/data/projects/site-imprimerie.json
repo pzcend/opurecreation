@@ -4,7 +4,6 @@
     "client": "Imprimerie Traditionnelle",
     "sector": "Imprimeur",
     "year": "2019",
-     "path": "/project/site-imprimerie",
     "tags": "Site vitrine entreprise",
      "url":"https://www.imprimerie-traditionnelle.fr",
     "featured_image": "./images/site-imprimerie/imprimerie.jpg",
@@ -27,7 +26,7 @@
                 "Formulaire de contact avec demande de devis intégrée.",
                 "Structure Web-Responsive adaptable aux différents taille d'écrans (PC, Tablette, Smartphone.",
                 "Travail important de référencement naturel sur un marché concurentiel."
-            ],
+            ]
             
         }
     

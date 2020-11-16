@@ -27,6 +27,8 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
     const {body, features, cover_image } = projectData;
      const twitterHandle = "_MsLinda";
      const chemin = restProps.location.href;
+
+     console.log(tags)
    
 
     return (
@@ -81,7 +83,7 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                                     <div>
                                      <ProjectType className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                     <Heading {...metaHeading}>Partage</Heading>
-          <ShareButtons {...metaShare} title={title} url={chemin} twitterHandle={twitterHandle} tags={tags}/>
+          <ShareButtons {...metaShare} title={title} url={chemin} twitterHandle={twitterHandle} tags={projectData.tags}/>
           </ProjectType>
       </div>
 

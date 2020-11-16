@@ -7,7 +7,6 @@
     "url":"https://www.panelpub.com",
     "featured_image": "./images/site-panelpub/panelpub.jpg",
     "cover_image": "./images/site-panelpub/panelpub.jpg",
-     "path": "https://www.opurecreation.com/project/site-panelpub",
     "tags": "Site Web communication",
     "body": [
         "Refonte du site internet Panelpub.com",
@@ -24,7 +23,7 @@
                 "Accueil présentant les différents thèmes présent dans le site.",
                 "Catalogue de produits par gamme.",
                 "Galerie photos"
-            ],
+            ]
             
         }
     ]

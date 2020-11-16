@@ -4,10 +4,8 @@
     "client": "Brard Blanchard",
     "sector": "Maison de Cognac",
     "year": "2020",
-     "url":"https://www.brard-blanchard.fr",
-    "path": "https://www.opurecreation.com/project/site-brardblanchard",
+     "url": "https://www.brard-blanchard.fr",
     "tags": "Site vitrine ecommerce",
-    "is_featured": true,
     "featured_image": "./images/smart-business/projet4.jpg",
     "cover_image": "./images/smart-business/projet4.jpg",
     "body": [
@@ -26,8 +24,7 @@
                 "Partie E-commerce indépendante et facile à prendre en main par une administration simple et efficace.",
                 "Arborescence du site modulable et évolutive.",
                 "Structure Web-Responsive adaptable aux différents taille d'écrans (PC, Tablette, Smartphone"
-            ],
-            
+            ] 
         }
     
     ]
