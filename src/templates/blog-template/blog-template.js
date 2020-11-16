@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {graphql} from 'gatsby'
 import SEO from '../../components/seo';
-import ShareButtons from "../../components/shared/share/share.component"
 import Layout from '../../containers/layout/layout'
 import Heading from '../../components/shared/heading'
 import Text from '../../components/shared/text'
@@ -15,13 +14,10 @@ import {
 } from './blog-template.stc'
  
 function BlogTemplate({data, ...restProps}) {
-    const {titleStyle, metaBoxStyle, metaText, metaHeadingStyle, metaTextStyle} = restProps;
-    const post = data.markdownRemark.frontmatter;
-    const title = `Read ${data.markdownRemark.frontmatter.title} `;
-    const path = data.markdownRemark.frontmatter.path;
-    const tags = data.markdownRemark.frontmatter.tags;
+    const {titleStyle, metaBoxStyle, metaHeadingStyle, metaTextStyle} = restProps;
+    const post = data.markdownRemark.frontmatter; 
     const imageData = post.image.childImageSharp.fluid;
-    const twitterHandle = "_MsLinda";
+
    
    
     return (

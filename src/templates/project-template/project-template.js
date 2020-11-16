@@ -22,7 +22,7 @@ import {
 
 const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) => {
   
-    const {title, url, path, tags, metaHeading, metaText, metaShare, nextProjectStyle} = restProps;
+    const {title, tags, metaHeading, metaText, metaShare, nextProjectStyle} = restProps;
     const projectData = data.projectsJson;
     const {body, features, cover_image } = projectData;
      const twitterHandle = "_MsLinda";

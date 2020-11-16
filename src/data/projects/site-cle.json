@@ -37,21 +37,8 @@
                 "Mise en place du site internet, intrégration de vos premiers contenus.",
                 "Installation de votre hébergement et de votre nom de domaine.",
                 "Mise en ligne du site et indexation dans les moteurs de recherches."
-            ],
-            "offre": [
-                "Un site internet clé en main, disponible en 1 semaine une fois les couleurs et les contenus choisis",
-                "Nom de domaine en .fr suivant disponibilité et hébergement sur un serveur dédié OVH inclus dans notre offre pour la première année (14,50 € TTC/mois pour la seconde année).",
-                "Certificat Let's Encrypt SSL pour votre hébergement en https.",
-                "Administration sécurisé pour la modification du site.",
-                "Indexation de votre site internet dans les moteurs de recherche."
-            ],
-            "tarif": [
-                "500 € HT",
-                "Mise en place du site internet, intrégration de vos premiers contenus.",
-                "Installation de votre hébergement et de votre nom de domaine.",
-                "Mise en ligne du site et indexation dans les moteurs de recherches."
             ]
-
+           
         }
         
     ]
