@@ -4,7 +4,7 @@
         "image": "./images/forfait_vitrine_plus.png",
         "name": "Forfait vitrine plus",
         "designation": "Forfait site Web",
-        "path": "/site-internet-vitrine-plus",
+        "path": "/nos-services/site-internet-vitrine-plus",
         "role": "administrator"
     },
     {
@@ -12,7 +12,7 @@
         "image": "./images/forfait_vitrine_expert.png",
         "name": "Forfait vitrine expert",
         "designation": "Forfait site Web",
-        "path": "/site-internet-vitrine-expert",
+        "path": "/nos-services/site-internet-vitrine-expert",
         "role": "administrator"
     },
     {
@@ -20,7 +20,7 @@
         "image": "./images/forfait_e_commerce.png",
         "name": "Forfait E-commerce",
         "designation": "Forfait site Web",
-        "path": "/site-internet-e-commerce",
+        "path": "/nos-services/site-internet-e-commerce",
         "role": "administrator"
     },
     {
@@ -28,7 +28,7 @@
         "image": "./images/forfait_maintenance.png",
         "name" : "Forfait maintenance",
         "designation": "Service Web",
-        "path": "/maintenance-de-votre-site-internet",
+        "path": "/nos-services/maintenance-de-votre-site-internet",
         "role": "administrator"
     },
     {
