@@ -6,7 +6,7 @@ import Blog from '../containers/blog/blog-area'
 
 export default () => (
     <Layout>
-     <SEO title="Nos services"/>
+     <SEO title="Nos services "/>
         <Banner/>
         <Blog/>
     </Layout>

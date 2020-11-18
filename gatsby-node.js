@@ -68,7 +68,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const posts = result.data.allMarkdownRemark.edges
     posts.forEach(({node}) => {
         createPage({
-            path: node.fields.slug,
+            path: `/nos-services/${node.fields.slug}`,
             component: singleBlog,
             context: {
                 slug: node.fields.slug
@@ -84,7 +84,7 @@ exports.createPages = async ({ graphql, actions }) => {
       const currentPage = index + 1;
       if(isFirstPage) return;
       createPage({
-        path: `${currentPage}`,
+        path: `/nos-services/${currentPage}`,
         component: blogList,
         context: {
           limit: postsPerPage,

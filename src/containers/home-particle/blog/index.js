@@ -60,7 +60,7 @@ const BlogSection = ({section}) => {
                                 categorie={blog.node.frontmatter.categorie}
                                 author={blog.node.frontmatter.categorie}
                                 id={blog.node.frontmatter.id}
-                                path={blog.node.fields.slug}
+                                path={`/nos-services/${blog.node.fields.slug}`}
                                 excerpt={blog.node.frontmatter.shortDesc}
                                 image={blog.node.frontmatter.image.childImageSharp.fluid}
                             />
