@@ -19,6 +19,9 @@ var plugins = [{
     },{
       plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-10906143-1"},
+    },{
+      plugin: require('/home/pierre/opurecreation/node_modules/gatsby-plugin-gdpr-cookies/gatsby-ssr'),
+      options: {"plugins":[],"googleAnalytics":{"trackingId":"UA-10906143-1","cookieName":"gatsby-gdpr-google-analytics","anonymize":true,"allowAdFeatures":false},"environments":["production","development"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

@@ -1,0 +1,33 @@
+{
+    "id": "site-grandeplage",
+    "title": "Site Vitrine",
+    "client": "Site internet Grande Plage",
+    "sector": "Site Vitrine",
+    "year": "2021",
+    "is_featured": true,
+    "tags": "Location appartements meublés",
+    "featured_image": "./images/site-grandeplage/grande-plage.jpg",
+    "cover_image": "./images/site-grandeplage/grande-plage.jpg",
+    "url": "https://www.grande-plage.fr",
+    "body": [
+        "Réalisation d'un site de location d'appartements meublés situés sur la baie de Royan.",
+        "Résidence privée sur trois étages entièrement rénovée avec des prestations haut de gamme.",
+        "Preséntation des appartements et réservation et paiement directement par le site internet."  
+    ],
+    "features": [
+        {
+            "id": "site-grandeplage-1",
+            "title": "Détails du site",
+            "image": "./images/site-grandeplage/detail-grandeplage.jpg",
+            "text": [
+                "Site internet présentant les différents appartements de la résidence.",
+                "Galerie photo et réservation des appartements directement dans le site.",
+                "Agenda des disponibiltés et module de paiement.",
+                "Pages intérieures spécifiques à chaque appartement."
+            ]
+           
+        }
+        
+
+    ]
+}

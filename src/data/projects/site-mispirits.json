@@ -1,0 +1,35 @@
+{
+    "id": "site-mispirits",
+    "title": "Site Vitrine",
+    "client": "Site internet M&I Spirits",
+    "sector": "Site e-commerce",
+    "year": "2021",
+    "is_featured": true,
+    "tags": "Site E commerce",
+    "featured_image": "./images/site-mispirits/mi-spirits.jpg",
+    "cover_image": "./images/site-mispirits/mi-spirits.jpg",
+    "url": "https://www.mi-spirits.com",
+    "body": [
+        "Réalisation d'un site  E commerce pour la société M&I Spirits .",
+        "Entreprise de production et de commercialisation de Pineaux des Charentes et de Cognac.",
+        "Preséntation des services et produits de l'entreprise, catalogue des produits, galerie de photos et tarifications."  
+    ],
+    "features": [
+        {
+            "id": "site-mispirits-1",
+            "title": "Détails du site",
+            "image": "./images/site-mispirits/detail-mi-spirits.jpg",
+            "text": [
+                "Page d'accueil du site avec différentes parties suivant les services et produits proposés.",
+                "Menu déroulant avec des différentes catégories du site.",
+                "Une galerie photo est incluse, ainsi que les liens vers vos réseaux sociaux.",
+                "Pages intérieures spécifiques à chaque produits.",
+                "Catalogue de produits et module de vente en ligne.",
+                "Référencement naturel optimisé suivant les services ciblés."
+            ]
+           
+        }
+        
+
+    ]
+}

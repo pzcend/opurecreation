@@ -8,6 +8,9 @@ module.exports = [{
       plugin: require('../node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
       options: {"plugins":[],"trackingId":"UA-10906143-1"},
     },{
+      plugin: require('../node_modules/gatsby-plugin-gdpr-cookies/gatsby-browser.js'),
+      options: {"plugins":[],"googleAnalytics":{"trackingId":"UA-10906143-1","cookieName":"gatsby-gdpr-google-analytics","anonymize":true,"allowAdFeatures":false},"environments":["production","development"]},
+    },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
     }]

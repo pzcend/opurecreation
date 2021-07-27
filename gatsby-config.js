@@ -150,7 +150,20 @@ module.exports = {
         trackingId: "UA-10906143-1",
       }
 
-    }
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics:{
+          trackingId: "UA-10906143-1",
+          cookieName : 'gatsby-gdpr-google-analytics',
+          anonymize: true,
+          allowAdFeatures: false
+        },
+        environments : ['production', 'development']
+      },
+
+    },
     
-  ]
+  ],
 }

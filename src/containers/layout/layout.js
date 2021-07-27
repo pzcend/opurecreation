@@ -14,6 +14,7 @@ import Client from './client'
 import '../../assets/fonts/themify-icons.css' 
 import '../../assets/css/animation.css' 
 import '../../assets/css/animate.min.css' 
+import CookieConsent from "react-cookie-consent";
 
 const Layout = ({children, ...props}) => {
     const {headerStyle, headerLayout} = props;
@@ -127,6 +128,14 @@ const Layout = ({children, ...props}) => {
             <div className='cursor' id="cursor"></div>
             <div className='cursor2' id="cursor2"></div>
             <div className='cursor3' id="cursor3"></div>
+            <CookieConsent
+            location ="top"
+            buttonText ="Acceptez"
+            declineButtonText ="Decliner"
+            cookieName ="gatsby-gdpr-google-analytics">
+            Ce site utilise les cookies uniquement pour les statistisques du site.
+            </CookieConsent> 
+
         </ThemeProvider>
     )
 }
