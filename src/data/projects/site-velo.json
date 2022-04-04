@@ -1,0 +1,33 @@
+{
+    "id": "site-velo",
+    "title": "Site One Page",
+    "client": "Giant Cognac",
+    "sector": "Location Velo",
+    "year": "2021",
+    "url": "https://www.location-velo-charente.fr",
+    "featured_image": "./images/site-velo/location-velo.jpg",
+    "cover_image": "./images/site-velo/location-velo.jpg",
+    "is_featured": true,
+    "body": [
+        "Création du site One page de la magasin Giant Cognac.",
+        "Présentation des offres de locations. ",
+        "Lien vers la plateforme des locations.",
+        "Affichage des avis clients.",
+        "Réalisation du site One Page avec menu latéral."
+    ],
+    "features": [
+        {
+            "id": "business-feature-1",
+            "title": "Présentation du site.",
+            "image": "./images/site-velo/detail.jpg",
+            "text": [
+                "Avis et informations spécifiques sur la page d'accueil.",
+                "Slider défilant pour intégrer les informations importantes .",
+                "Bouton de liaison vers plateforme de location.",
+                "Site internet évolutif par une administration personnalisée.",
+                "Structure du site Web-Responsive adaptable aux différents écrans (PC, Tablette, Smartphone)."
+            ]
+        }
+        
+    ]
+}

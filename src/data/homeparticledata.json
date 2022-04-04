@@ -24,7 +24,7 @@
     }, 
     {
         "id": "particle_story_section_contnet",
-        "title": "O' Pure création développe votre nouveau projet Web",
+        "title": "O' Pure création développe votre nouveau site internet vitrine, E-commerce, application mobile...",
         "subtitle": "Notre métier",
         "image": "./images/about.jpg",
         "path": "/a-propos",
@@ -37,7 +37,7 @@
     {
         "id": "particle_project_section_content",
         "title": "Site internet",
-        "subtitle": "CREATIONS 2020"
+        "subtitle": "CREATIONS 2021"
     },
     {
         "id": "particle_clients_section_content",

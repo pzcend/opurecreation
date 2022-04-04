@@ -1,0 +1,34 @@
+{
+    "id": "siteetsa",
+    "title": "Site Vitrine",
+    "client": "ETSA Electronics & Systems",
+    "sector": "Entreprise électronique",
+    "year": "2021",
+    "url": "https://www.et-sa.fr",
+    "featured_image": "./images/site-etsa/etsa.jpg",
+    "cover_image": "./images/site-etsa/etsa.jpg",
+    "is_featured": true,
+    "body": [
+        "Refonte du site internet de la société ETSA Electronics & Systems (16600 Ruelle sur Touvre)",
+        "Présentation des secteurs d'activités de l'entreprise. ",
+        "Présensation de ses différents services et métiers de l'entreprise.",
+        "Actualités générales et spécifiques de l'entreprise liées a un système d'Emailling.",
+        "Réalisation du site internet sous WordPress."
+    ],
+    "features": [
+        {
+            "id": "business-feature-1",
+            "title": "Présentation du site.",
+            "image": "./images/site-etsa/detail.jpg",
+            "text": [
+                "Pastilles spécifiques et news sur la page d'accueil.",
+                "Pages métiers et secteurs d'activités .",
+                "Actualités de l'entreprise et sa filiale Black Swan Technology.",
+                "Pages dédiées aux métiers",
+                "Site internet évolutif par une administration personnalisée.",
+                "Structure du site Web-Responsive adaptable aux différents écrans (PC, Tablette, Smartphone)."
+            ]
+        }
+        
+    ]
+}
