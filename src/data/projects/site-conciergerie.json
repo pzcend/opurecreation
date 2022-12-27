@@ -1,0 +1,33 @@
+{
+    "id": "site-conciergerie",
+    "title": "Site Vitrine",
+    "client": "Site internet Conciergerie de Magali",
+    "sector": "Site Vitrine",
+    "year": "2022",
+    "tags": "Location appartements meublés",
+    "featured_image": "./images/site-conciergerie/conciergerie.jpg",
+    "cover_image": "./images/site-conciergerie/conciergerie.jpg",
+    "url": "https://www.la-conciergerie-de-magali.fr",
+    "is_featured": true,
+    "body": [
+        "Réalisation d'un site de gestion locative.",
+        "Présentation des différents services proposés.",
+        "Preséntation des appartements en détails et lien vers site de location."  
+    ],
+    "features": [
+        {
+            "id": "site-conciergerie-1",
+            "title": "Détails du site",
+            "image": "./images/site-conciergerie/detail-conciergerie.jpg",
+            "text": [
+                "Site internet présentant les différents appartements mis en location.",
+                "Galerie photo des prestations.",
+                "pages dédiées aux services proposés.",
+                "Pages intérieures spécifiques à chaque appartement."
+            ]
+           
+        }
+        
+
+    ]
+}

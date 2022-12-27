@@ -7,6 +7,7 @@ import ProjectSection from '../containers/home-particle/project'
 import TestimonialSection from '../containers/home-particle/testimonial'
 import ClientSection from '../containers/home-particle/clients'
 import BlogSection from '../containers/home-particle/blog'
+import VideoSection from '../containers/home-particle/video'
 
 export default () => (
     <Layout>
@@ -16,6 +17,7 @@ export default () => (
         <ProjectSection/>
         <TestimonialSection/>
         <ClientSection/>
+        <VideoSection/>
         <BlogSection/>
     </Layout>
 )

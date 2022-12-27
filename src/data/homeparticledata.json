@@ -7,7 +7,7 @@
         "btn_link": "/nos-services",
         "clients": [  
             {  "id" : "particule_client_1",
-                "link" : "/project/site-cma",
+                "link" : "/project/siteetsa",
                 "image":"./images/logo6.png"
             },
             {  "id" : "particule_client_2",
@@ -37,7 +37,7 @@
     {
         "id": "particle_project_section_content",
         "title": "Site internet",
-        "subtitle": "CREATIONS 2021"
+        "subtitle": "CREATIONS 2022"
     },
     {
         "id": "particle_clients_section_content",

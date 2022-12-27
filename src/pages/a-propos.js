@@ -8,7 +8,7 @@ import Team from '../containers/company/team'
 
 export default () => (
     <Layout>
-        <SEO title="O Pure Création développement de site internet"/>
+        <SEO title="O Pure Création développement de site internet en Charentes"/>
         <Banner/>
         <About/>
      	<Team/>

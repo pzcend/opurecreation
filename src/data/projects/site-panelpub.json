@@ -3,16 +3,17 @@
     "title": "Site vitrine ",
     "client": "Panel Pub",
     "sector": "Agence de communication",
-    "year": "2019",
+    "year": "2022",
     "url":"https://www.panelpub.com",
-    "featured_image": "./images/site-panelpub/panelpub.jpg",
-    "cover_image": "./images/site-panelpub/panelpub.jpg",
+    "featured_image": "./images/site-panelpub/panelpub-v2.jpg",
+    "cover_image": "./images/site-panelpub/panelpub-v2.jpg",
     "tags": "Site Web communication",
+    "is_featured": true,
     "body": [
-        "Refonte du site internet Panelpub.com",
+        "Refonte du site internet Panelpub.com seconde version",
         "Entreprise de produits de communication visuelle située à Saintes en Charente-maritime.",
         "Présentation des différentes gammes de produits.",
-        "Mise en place d'un background vidéo sur la page d'accueil du site."
+        "Travail en partenarait avec les graphistes de Panel Pub pour le Webdesign."
     ],
     "features": [
         {
@@ -21,7 +22,8 @@
             "image": "./images/site-panelpub/detail-panelpub.jpg",
             "text": [
                 "Accueil présentant les différents thèmes présent dans le site.",
-                "Catalogue de produits par gamme.",
+                "Mise en avant des principaux services de l'agence.",
+                "Présentation des dernières réalisations",
                 "Galerie photos"
             ]
             

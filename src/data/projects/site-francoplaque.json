@@ -1,0 +1,35 @@
+{
+    "id": "site-francoplaque",
+    "title": "Site portfolio collection",
+    "client": "Association Francoplaque",
+    "sector": "Association",
+    "year": "2022",
+    "url": "https://www.francoplaque.fr/galerie",
+    "featured_image": "./images/site-francoplaque/francoplaque.jpg",
+    "cover_image": "./images/site=francoplaque/francoplaque.jpg",
+    "tags": "Site association",
+    "is_featured": true,
+    "body": [
+        "Création portfolio d'une base de donnée de photos pour l'association Francoplaque.",
+        "Association regroupant le plus grande nombre de photos de plaque d'immatriculation en Europe.",
+        "Présentation des plaques par continents et pays",
+        "Intégration d'un espace privé pour certains membres de l'association. ",
+        "Optimation des photos et affichage direct des répertoires."
+    ],
+    "features": [
+        {
+            "id": "business-feature-1",
+            "title": "Présentation du site.",
+            "image": "./images/site-francoplaque/detail-francoplaque.jpg",
+            "text": [
+                "Intégration de la base données des photos dans les répertoires du serveur.",
+                "Espace privée.",
+                "Affichage personnalisé par continent.",
+                "Pages optimisées pour la version mobile",
+                "Site internet évolutif par une administration personnalisée.",
+                "Structure du site Web-Responsive adaptable aux différents écrans (PC, Tablette, Smartphone)."
+            ]
+        }
+        
+    ]
+}

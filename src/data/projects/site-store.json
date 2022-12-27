@@ -1,0 +1,34 @@
+{
+    "id": "site-store",
+    "title": "Site Vitrine",
+    "client": "Site internet Store Océan",
+    "sector": "Site Vitrine",
+    "year": "2022",
+    "tags": "Site de présentation de stores, pergolas, fenetre et volets à Royan",
+    "featured_image": "./images/site-store/store-ocean.jpg",
+    "cover_image": "./images/site-store/store-ocean.jpg",
+    "url": "https://stores-ocean.fr",
+    "is_featured": true,
+    "body": [
+        "Réalisation d'un site de présentation de stores et pergolas.",
+        "Présentation des différentes gamme de produits proposés.",
+        "Preséntation des produits en diaporama photos.",
+        "Site réalisé en collaboration avec la société Panel Pub pour le Webdesign" 
+    ],
+    "features": [
+        {
+            "id": "site-store-1",
+            "title": "Détails du site",
+            "image": "./images/site-store/detail-store-ocean.jpg",
+            "text": [
+                "Site internet présentant les différentes gammes de produits.",
+                "Galerie photo des différents produits.",
+                "pages dédiées aux services proposés.",
+                "Pages intérieures spécifiques à chaque gamme de produits."
+            ]
+           
+        }
+        
+
+    ]
+}

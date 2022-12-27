@@ -29,7 +29,7 @@ const VideoSection = () => {
                     <Controller>
                         <Scene classToggle="animated" triggerElement=".video-content" triggerHook="onCenter">
                             <div className="thumb rn_surface">
-                                <Image fluid={bannerImg} alt="creative agency"/>
+                                <Image fluid={bannerImg} alt="Application Saas intervention en ligne"/>
                             </div>
                         </Scene>
                     </Controller>

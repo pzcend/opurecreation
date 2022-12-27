@@ -1,0 +1,33 @@
+{
+    "id": "site-gratacos",
+    "title": "Site Vitrine",
+    "client": "Site internet Cuisines Gratacos",
+    "sector": "Site Vitrine",
+    "year": "2022",
+    "tags": "Fabricant de cuisines, dressing, salles de bains, aménagements intérieurs",
+    "featured_image": "./images/site-gratacos/gratacos.jpg",
+    "cover_image": "./images/site-gratacos/gratacos.jpg",
+    "url": "https://www.cuisinesgratcos.fr",
+    "is_featured": true,
+    "body": [
+        "Refonte d'un site de fabrication de cuisines et aménagement intérieur.",
+        "Présentation des différents services proposés.",
+        "Preséntation des différentes catégories avec un portfolio de photos personnalisées."  
+    ],
+    "features": [
+        {
+            "id": "site-gratacos-1",
+            "title": "Détails du site",
+            "image": "./images/site-gratacos/detail-gratacos.jpg",
+            "text": [
+                "Site internet présentant les différentes catégories et services.",
+                "Galerie photo des prestations.",
+                "pages dédiées aux services proposés.",
+                "Pages intérieures spécifiques à chaque univers."
+            ]
+           
+        }
+        
+
+    ]
+}
