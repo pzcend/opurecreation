@@ -4,14 +4,14 @@
     "client": "O'Pure Création",
     "sector": "Informatique",
     "year": "2022",
-    "url": "https://www.interventionenligne.fr",
+    "url": "https://www.interventionsenligne.fr",
     "featured_image": "./images/site-intervention/intervention.jpg",
     "cover_image": "./images/site-intervention/intervention.jpg",
     "tags": "Application Web Hybride",
      "is_featured": true,
     "body": [
         "Développement application Web Saas hybride fonctionelle sur IOS et Android.",
-        "Planning Partager d'une équipe technique ou de collaborateurs. ",
+        "Planning Partagé d'une équipe technique ou de collaborateurs. ",
         "Fiche d'intervention dématerialisée.",
         "Envoie en pdf de la fiche d'intervention via email. ",
         "Gestion d'un fichier client."
@@ -20,6 +20,7 @@
         {
             "id": "site-intervention-1",
             "title": "Présentation de l'application.",
+            "image": "./images/site-intervention/intervention.jpg",
             "text": [
                 "Version administrateur et technicien.",
                 "Tableau de bord global sur les activités principales.",
