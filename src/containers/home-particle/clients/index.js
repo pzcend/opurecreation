@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from "gatsby"
-import Image from '../../../components/image'
 import SectionTitle from '../../../components/shared/section-title'
 import ClientList, {Client} from '../../../components/client-list'
 import {ClientSectionWrap, ClientWrap, ClientLeft, ClientRight} from './clients.stc'
@@ -41,7 +40,7 @@ const ClientSection = ({section}) => {
     `)
     const clientSecData = clientQueryData.homeparticledataJson;
     const clients = clientQueryData.allClientsJson.edges;
-    const imageData = clientSecData.image.childImageSharp.fluid;
+    
 
     return (
         <ClientSectionWrap {...section}>

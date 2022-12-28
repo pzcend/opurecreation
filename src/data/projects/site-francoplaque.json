@@ -6,7 +6,7 @@
     "year": "2022",
     "url": "https://www.francoplaque.fr/galerie",
     "featured_image": "./images/site-francoplaque/francoplaque.jpg",
-    "cover_image": "./images/site=francoplaque/francoplaque.jpg",
+    "cover_image": "./images/site-francoplaque/francoplaque.jpg",
     "tags": "Site association",
     "is_featured": true,
     "body": [
@@ -18,7 +18,7 @@
     ],
     "features": [
         {
-            "id": "business-feature-1",
+            "id": "site-francoplaque-1",
             "title": "Présentation du site.",
             "image": "./images/site-francoplaque/detail-francoplaque.jpg",
             "text": [

@@ -38,9 +38,7 @@ const BlogArea = () => {
     `);
     
     const blogs = blogQueryData.allMarkdownRemark.edges;
-    const {totalCount} = blogQueryData.allMarkdownRemark;
-    const postsPerPage = 4;
-    const numberOfPages = Math.ceil(totalCount/postsPerPage);
+    
     return (
       <Fragment>
         <SectionWrap>

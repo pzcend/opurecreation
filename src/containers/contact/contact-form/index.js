@@ -27,7 +27,7 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
         }      
     `);
 
-    var Recaptcha = require('gatsby-plugin-recaptcha');
+  
 
     const {title, subtitle} = bannerQueryData.pagedataJson;
     const imageData = bannerQueryData.pagedataJson.banner_img.childImageSharp.fluid
@@ -69,7 +69,7 @@ const ContactFormSection = ({headingStyle, textStyle, inputStyle, textareaStyle}
                                     {...textareaStyle}
                                 />
                                 <h3>Captcha</h3>
-                                <p><img src="/capt.jpg" width="300px" heigt="100px" alt="capt image" /></p>
+                                <p><img src="/capt.jpg" width="300px" heigt="100px" alt="capt logo" /></p>
                                 <p>Merci de taper le mot inscrit dans l'image pour valider l'envoi du formulaire.</p>
                                 <Input
                                     type="text"

@@ -5,9 +5,10 @@
     "sector": "Informatique",
     "year": "2022",
     "url": "https://www.interventionenligne.fr",
-    "featured_image": "./images/site-intervention/cma.jpg",
-    "cover_image": "./images/site-intervention/cma.jpg",
+    "featured_image": "./images/site-intervention/intervention.jpg",
+    "cover_image": "./images/site-intervention/intervention.jpg",
     "tags": "Application Web Hybride",
+     "is_featured": true,
     "body": [
         "Développement application Web Saas hybride fonctionelle sur IOS et Android.",
         "Planning Partager d'une équipe technique ou de collaborateurs. ",
@@ -19,7 +20,6 @@
         {
             "id": "site-intervention-1",
             "title": "Présentation de l'application.",
-            "image": "./images/site-intervention/detail.jpg",
             "text": [
                 "Version administrateur et technicien.",
                 "Tableau de bord global sur les activités principales.",

@@ -62,7 +62,7 @@ const Footer = ({
     `);
 
     const {copyright, contact, localisation} = siteQueryData.site.siteMetadata;
-	const {postal_code, email, address, social: {facebook, twitter, linkedin}} = contact
+	const {postal_code, email, address, social: {facebook, linkedin}} = contact
 
     return (
 		<FooterWrap>
